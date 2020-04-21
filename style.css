@@ -1550,6 +1550,13 @@ body {
 	display: none;
 }
 
+@media only screen and (max-width: 900px) {
+
+	.post-credits {
+		display: none;
+	}
+}
+
 /*--------------------------------------------------------------
 ## Latest Posts Custom
 --------------------------------------------------------------*/
