@@ -15,7 +15,7 @@
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content-custom', get_post_type() );
+			get_template_part( 'template-parts/content-custom-acf', get_post_type() );
 
 			the_post_navigation();
 
@@ -33,103 +33,6 @@
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
-
-
-    <div id="post-title">
-        <h2><?php the_field('book_title'); ?></h2>
-    </div>
-
-    <hr style="margin: 0 10%;">
-
-    <div id="post-content">
-        <div class="post-credits">
-            <div>
-                <?php if( get_field('book_credits_author') ): ?>
-                <h4>GUP Author</h4>
-                <p><?php the_field('book_credits_author'); ?></h4>
-                </p>
-                <?php endif; ?>
-            </div>
-            <hr style="margin-right:40%;">
-            <div>
-                <?php if( get_field('book_credits_artist') ): ?>
-                <h4>Artist</h4>
-                <p><?php the_field('book_credits_artist'); ?></h4>
-                </p>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php if( get_field('book_credits_artist-website') ): ?>
-                <h4>Artist Website</h4>
-                <p><?php the_field('book_credits_artist-website'); ?></h4>
-                </p>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php if( get_field('book_credits_artist-social-media') ): ?>
-                <h4>Artist Social Media</h4>
-                <p><?php the_field('book_credits_artist-social-media'); ?></h4>
-                </p>
-                <?php endif; ?>
-            </div>
-            <hr style="margin-right:40%;">
-            <div>
-                <?php if( get_field('book_credits_book-title') ): ?>
-                <h4>Title</h4>
-                <p><?php the_field('book_credits_book-title'); ?></h4>
-                </p>
-                <?php if( get_field('book_credits_book-cover') ): ?>
-                <?php 
-                        $image = get_field('book_credits_book-cover');
-                        $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
-                        if( $image ) {
-                            echo wp_get_attachment_image( $image, $size );
-                        } ?>
-                <?php endif; ?>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php if( get_field('book_credits_book-publisher') ): ?>
-                <h4>Publisher</h4>
-                <p><?php the_field('book_credits_book-publisher'); ?></h4>
-                </p>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php if( get_field('book_credits_book-format') ): ?>
-                <h4>Format</h4>
-                <p><?php the_field('book_credits_book-format'); ?></h4>
-                </p>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php if( get_field('book_credits_book-price') ): ?>
-                <h4>Price</h4>
-                <p><?php the_field('book_credits_book-price'); ?></h4>
-                </p>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php if( get_field('book_credits_publisher-website') ): ?>
-                <h4>Publisher Website</h4>
-                <p><?php the_field('book_credits_publisher-website'); ?></h4>
-                </p>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php if( get_field('book_credits_publisher-social-media') ): ?>
-                <h4>Publisher Social Media</h4>
-                <p><?php the_field('book_credits_publisher-social-media'); ?></h4>
-                </p>
-                <?php endif; ?>
-            </div>
-        </div>
-
-        <div class="post-text">
-            <p><?php the_field('book_text'); ?></p>
-        </div>
-
-    </div>
 
 
 </div>
