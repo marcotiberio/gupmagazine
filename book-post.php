@@ -27,7 +27,8 @@
 		endwhile; // End of the loop.
 		?>
 
-        
+        </main><!-- #main -->
+	</div><!-- #primary -->
 
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
@@ -171,8 +172,6 @@ echo '</div></div>';
 $post = $orig_post;
 wp_reset_query(); ?>
 
-    </main><!-- #main -->
-</div><!-- #primary -->
 
 <?php
 get_footer(); ?>
