@@ -162,17 +162,17 @@
             <p><?php the_excerpt(); ?></p>
         </div>
     </div>
-    <?
-    }
-    echo '</div></div>';
-    }
-    }
-    $post = $orig_post;
-    wp_reset_query(); ?>
 
-    }
+<?php
+}
+echo '</div></div>';
+}
+}
+$post = $orig_post;
+wp_reset_query(); ?>
 
     </main><!-- #main -->
-    </div><!-- #primary -->
+</div><!-- #primary -->
 
-<?php get_footer(); ?>
+<?php
+get_footer(); ?>
