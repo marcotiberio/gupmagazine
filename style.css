@@ -1559,6 +1559,14 @@ body {
 	.post-credits {
 		display: none;
 	}
+
+	.post-credits div h4 {
+		text-align: center;
+	}
+
+	.post-credits div p {
+		text-align: center;
+	}
 }
 
 /*--------------------------------------------------------------
