@@ -1554,6 +1554,7 @@ body {
 
 	#post-credits_mobile-title {
 		text-align: center;
+		text-decoration: underline;
 	}
 	.post-credits {
 		display: none;
