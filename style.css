@@ -1506,6 +1506,14 @@ body {
 	padding: 0 8%;
 }
 
+.post-credits {
+	display: block;
+}
+
+#post-credits_mobile-title {
+	display: none;
+}
+
 .post-credits div h4 {
 	margin-bottom: 0;
 }
@@ -1556,6 +1564,7 @@ body {
 		text-align: center;
 		text-decoration: underline;
 	}
+
 	.post-credits {
 		display: none;
 	}
@@ -1566,6 +1575,10 @@ body {
 
 	.post-credits div p {
 		text-align: center;
+	}
+
+	.post-credits hr {
+		display: none;
 	}
 }
 
