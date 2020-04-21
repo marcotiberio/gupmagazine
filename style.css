@@ -1552,7 +1552,7 @@ body {
 
 @media only screen and (max-width: 900px) {
 
-	.post-credits_mobile-title {
+	#post-credits_mobile-title {
 		text-align: center;
 	}
 	.post-credits {

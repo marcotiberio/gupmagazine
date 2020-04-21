@@ -55,12 +55,12 @@
 
 		<hr style="margin: 0 10%;">
 		
-		<div class="post-credits_mobile-title">
+		<div id="post-credits_mobile-title">
 			<h4>CREDITS</h4>
 		</div>
 
 		<div id="post-content">
-			<div class="post-credits">
+			<div class="post-credits" id="toggle-credits-mobile">
 				<div>
 					<?php if( get_field('book_credits_author') ): ?>
 					<h4>GUP Author</h4>
