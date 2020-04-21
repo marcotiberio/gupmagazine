@@ -58,6 +58,9 @@
 		<div id="post-content">
 			<div class="post-credits">
 				<div>
+					<h4>CREDITS</h4>
+				</div>
+				<div>
 					<?php if( get_field('book_credits_author') ): ?>
 					<h4>GUP Author</h4>
 					<p><?php the_field('book_credits_author'); ?></p>
