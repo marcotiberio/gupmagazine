@@ -117,7 +117,8 @@ $my_query->the_post();?>
             <p><?php the_excerpt(); ?></p>
         </div>
     </div>
-<?
+
+<?php
 }
 echo '</div></div>';
 }
@@ -125,4 +126,6 @@ echo '</div></div>';
 $post = $orig_post;
 wp_reset_query(); ?>
 
-<?php get_footer(); ?>
+
+<?php
+get_footer(); ?>
