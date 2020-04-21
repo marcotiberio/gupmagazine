@@ -1578,6 +1578,10 @@ body {
 		text-align: center;
 	}
 
+	.post-credits div img {
+		margin: 0 25%;
+	}
+
 	.post-credits hr {
 		display: none;
 	}
