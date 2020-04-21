@@ -30,10 +30,6 @@
         </main><!-- #main -->
 	</div><!-- #primary -->
 
-    <!-- CUSTOM POST LAYOUT -->
-    <!-- CUSTOM POST LAYOUT -->
-    <!-- CUSTOM POST LAYOUT -->
-
 
 </div>
 

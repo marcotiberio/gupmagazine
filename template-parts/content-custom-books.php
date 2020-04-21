@@ -45,6 +45,10 @@
 		) );
 		?>
 
+		<!-- CUSTOM POST LAYOUT -->
+    	<!-- CUSTOM POST LAYOUT -->
+    	<!-- CUSTOM POST LAYOUT -->
+
 		<div id="post-title">
 			<h2><?php the_field('book_title'); ?></h2>
 		</div>
