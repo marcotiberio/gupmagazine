@@ -1,0 +1,10 @@
+.slider {
+    padding: 0 0 5px;
+}
+
+.slides img {
+    height: 80vh;
+    width: auto;
+    padding: 2vh;
+
+}
