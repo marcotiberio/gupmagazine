@@ -186,7 +186,7 @@ function custom_add_google_fonts() {
 
 function wpforo_search_form( $html ) {
 
-    $html = str_replace( 'placeholder="Search ', 'placeholder="ciao ', $html );
+    $html = str_replace( 'placeholder="Search ', 'placeholder="ciao', $html );
 
     return $html;
 }
