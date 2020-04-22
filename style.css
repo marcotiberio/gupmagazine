@@ -1191,7 +1191,7 @@ body {
 	text-decoration: underline;
 }
 
-.home-slider_post-more {
+.wp-block-getwid-template-post-link .home-slider_post-more {
 	margin: 0;
 	padding: 0 10px;
   	position: absolute;
@@ -1204,13 +1204,14 @@ body {
   	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
 	font-weight: 700;
   	text-transform: uppercase;
-  	color: white;
+	color: white;
+	text-decoration: none;  
   
 	background-color: grey;
 	transition: ease-in-out 0.3s;
 }
 
-.home-slider_post-more:hover {
+.wp-block-getwid-template-post-link .home-slider_post-more:hover {
 	cursor: pointer;
 	background-color: lightgray;
 	color: black;
