@@ -9,3 +9,7 @@
     padding: 2vh;
 
 }
+
+.slick-dots {
+    bottom: -15px !important;
+}
