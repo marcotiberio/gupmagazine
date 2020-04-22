@@ -13,3 +13,9 @@
 .slick-dots {
     bottom: -15px !important;
 }
+
+.slick-initialized .slick-slide {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
