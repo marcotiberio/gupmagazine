@@ -131,8 +131,6 @@ function gup_underscore_scripts() {
 
 	wp_enqueue_script( 'gup_underscore-transition', get_template_directory_uri() . '/js/transition.js', array(), '20151215', true );
 
-	wp_register_script( 'gup_underscore-flexslider', get_template_directory_uri() . '/js/flexslider.js', array( 'jquery' ), '20151215', true );
-
 	wp_enqueue_script('gup_underscore-script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
