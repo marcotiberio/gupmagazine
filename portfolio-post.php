@@ -35,6 +35,46 @@
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
 
+    <div class="wrapper">
+    <div class="flexslider">
+    <ul class="slides">
+        <?php
+        if( have_rows('slider') ):
+        $i = 1;
+        $row_count = count(get_field('slider'));
+        while ( have_rows('slider') ) : the_row();
+        $image = get_sub_field('slider_image');
+        ?>
+        <li id="id-<?php echo $i ?>">
+            <div class="image-box" style="background-image: url(<?php echo $image; ?>)"></div>
+        </li>
+        <?php
+        $i++;
+        endwhile;
+        else :
+        endif;
+        ?>
+    </ul>
+    </div>
+
+    <?php // This link should really be dynamically set ?>
+    <a href="/work">
+
+    <div id="cross-single">
+        <!-- <p>close</p> -->
+        <img src="<?php echo get_template_directory_uri(); ?>/img/x.svg">
+    </div>
+
+
+    </a>
+
+
+    <div class="prev"></div>
+    <div class="next"></div>
+
+
+    </div>
+
     <div id="post-title">
         <h2><?php the_field('portfolio_title'); ?></h2>
     </div>
