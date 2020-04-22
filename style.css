@@ -1170,7 +1170,7 @@ body {
 	margin-right: 2% !important;
 }
 
-.home-slider_post-title {
+.wp-block-group .home-slider_post-title {
 	margin: 0;
 	padding: 0;
   	position: absolute;
