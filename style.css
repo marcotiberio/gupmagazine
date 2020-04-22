@@ -1144,7 +1144,7 @@ body {
 		height: 300px;
 	}
 
-	.nav--search-form {
+	#search-form {
 		display: none;
 	}
 }
