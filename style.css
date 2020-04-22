@@ -1467,6 +1467,10 @@ body {
 	text-decoration: none;
 }
 
+.entry-header .post-title:hover {
+	text-decoration: underline;
+}
+
 /*--------------------------------------------------------------
 ## Custom Pages
 --------------------------------------------------------------*/
