@@ -1213,8 +1213,7 @@ body {
 
 .wp-block-getwid-template-post-link .home-slider_post-more:hover {
 	cursor: pointer;
-	background-color: lightgray;
-	color: black;
+	background-color: black !important;
 }
 
 .home-slider_custom-field {
