@@ -7,7 +7,6 @@
     height: 80vh;
     width: auto;
     padding: 0 3vh;
-
 }
 
 .slick-dots {
@@ -17,5 +16,8 @@
 .slick-initialized .slick-slide {
     outline: none;
     border: none;
-    cursor: pointer;
+}
+
+.slick-prev .slick-arrow {
+    cursor: w-resize;
 }
