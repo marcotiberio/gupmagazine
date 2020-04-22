@@ -35,6 +35,31 @@
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
 
+    <?php
+
+    $images = get_field('slider_portfolio');
+
+    if( $images ): ?>
+    <div class="slider-for">
+            
+                <?php foreach( $images as $image ): ?>
+                    <div class="slick-container">
+                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                        
+                    </div>
+                <?php endforeach; ?>
+        </div>
+    <div class="slider-nav">
+            
+                <?php foreach( $images as $image ): ?>
+                    <div>
+                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                        
+                    </div>
+                <?php endforeach; ?>
+        </div>
+    <?php endif; ?>
+
     <div id="post-title">
         <h2><?php the_field('portfolio_title'); ?></h2>
     </div>
