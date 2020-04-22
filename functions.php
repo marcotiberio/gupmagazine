@@ -193,10 +193,12 @@ function custom_add_google_fonts() {
 // add_filter( 'get_search_form', 'wpforo_search_form' );
 
 function html5_search_form( $form ) { 
-	$form = '<section class="search"><form role="search" method="get" id="search-form" action="' . home_url( '/' ) . '" >
-   	<label class="screen-reader-text" for="s">' . __('',  'domain') . '</label>
-	<input type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="Search website" />
-	</form></section>';
+	$form = '<section class="search">
+				<form role="search" method="get" id="search-form" action="' . home_url( '/' ) . '" >
+   					<label class="screen-reader-text" for="s">' . __('',  'domain') . '</label>
+					<input type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="Search website" />
+				</form>
+			</section>';
 	return $form;
 }
 
