@@ -1513,6 +1513,10 @@ body {
 	padding: 0 8%;
 }
 
+.post-subtitle {
+	margin-bottom: 0;
+}
+
 #post-title h2 {
 	margin-top: 0 !important;
 }
