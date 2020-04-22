@@ -234,14 +234,6 @@ function html5_search_form( $form ) {
 
 add_filter( 'get_search_form', 'html5_search_form' );
 
-// Filter except length to 35 words.
-// tn custom excerpt length
-function tn_custom_excerpt_length( $length ) {
-	return 35;
-	}
-	add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 999 );
-
-
 /** 
  * Add image sizes. 
  */
