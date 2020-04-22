@@ -192,6 +192,19 @@ function custom_add_google_fonts() {
 // }
 // add_filter( 'get_search_form', 'wpforo_search_form' );
 
+// Alter core searchform placeholder (such as sidebar widget)
+add_filter( 'wpex_search_placeholder_text', function() {
+    return __( 'Search our blog', 'Total' );
+} );
+
+// Alter header menu searchform placeholder text
+add_filter( 'wpex_get_header_menu_search_form_placeholder', function() {
+	return __( 'Your custom text', 'Total' );
+} );
+
+add_filter( 'wpex_search_placeholder_text', 'my_custom_search_placeholder_text' );
+add_filter( 'wpex_get_header_menu_search_form_placeholder', 'my_custom_search_placeholder_text' );
+
 
 /** 
  * Add image sizes. 
