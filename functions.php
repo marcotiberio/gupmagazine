@@ -184,13 +184,13 @@ function custom_add_google_fonts() {
  * Edit searchbar. 
  */
 
-function wpforo_search_form( $html ) {
+// function wpforo_search_form( $html ) {
 
-    $html = str_replace( 'placeholder="Search ', 'placeholder="ciao', $html );
+//     $html = str_replace( 'placeholder="Search ', 'placeholder="ciao', $html );
 
-    return $html;
-}
-add_filter( 'get_search_form', 'wpforo_search_form' );
+//     return $html;
+// }
+// add_filter( 'get_search_form', 'wpforo_search_form' );
 
 
 /** 
