@@ -601,10 +601,6 @@ input[type="search"] {
 	outline: none;
 }
 
-.fontAwesome { 
-	font-family: 'Helvetica', FontAwesome, sans-serif; 
-}
-
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
