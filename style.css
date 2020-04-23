@@ -1178,8 +1178,8 @@ body {
   	/* position: absolute;
   	top: 300px;
   	left: 50%;
-  	transform: translate(-50%, -50%); */
-	width: fit-content;
+  	transform: translate(-50%, -50%);
+	width: fit-content; */
   	height: auto;
 }
 
@@ -1199,8 +1199,8 @@ body {
 	/* position: absolute;
 	top: 370px;
 	left: 50%;
-	transform: translate(-50%, -50%); */
-	width: fit-content;
+	transform: translate(-50%, -50%);
+	width: fit-content; */
   	height: auto;
 	
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
