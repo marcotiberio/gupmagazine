@@ -257,13 +257,6 @@ function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
 	add_filter( 'post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3 );
 
 
-	function has_any_memberful_plan() {
-		if ( function_exists( "memberful_wp_user_plans_subscribed_to" ) ) {
-		  $plans = memberful_wp_user_plans_subscribed_to( wp_get_current_user()->ID );
-		  return !empty( $plans );
-		}
-		return false;
-	  }
 
 
 
