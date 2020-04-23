@@ -34,8 +34,7 @@
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
-
-    <?php if ( memberful_can_user_access_post( get_current_user_id(), $post->ID) ) { ?>
+    
 
     <div id="post-title">
         <h2><?php the_field('portfolio_title'); ?></h2>
@@ -92,12 +91,6 @@
         </div>
 		
     </div>
-
-    <?php else : ?>
-
-        Shown to others.
-
-<?php endif; ?>
 	
 </div>
 
