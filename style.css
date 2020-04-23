@@ -1175,12 +1175,12 @@ body {
 .home-slider_post-title {
 	margin: 0;
 	padding: 0;
-  position: absolute;
-  top: 300px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  	/* position: absolute;
+  	top: 300px;
+  	left: 50%;
+  	transform: translate(-50%, -50%); */
 	width: fit-content;
-  height: auto;
+  	height: auto;
 }
 
 .home-slider_post-title a {
@@ -1196,15 +1196,15 @@ body {
 .home-slider_post-more {
 	margin: 0;
 	padding: 0 10px;
-  position: absolute;
-  top: 370px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	/* position: absolute;
+	top: 370px;
+	left: 50%;
+	transform: translate(-50%, -50%); */
 	width: fit-content;
-  height: auto;
+  	height: auto;
 	
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  	font-weight: 700;
 	text-transform: uppercase;
 	color: white;
   
@@ -1221,60 +1221,6 @@ body {
 .home-slider_custom-field {
 	margin-bottom: 0;
 }
-
-/* .wp-block-group .home-slider_post-title {
-	margin: 0;
-	padding: 0;
-  	position: absolute;
-  	top: 300px;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-	width: fit-content;
-  	height: auto;
-}
-
-.home-slider_post-title a {
-	text-decoration: none;
-	transition: ease-in-out 0.3s;
-}
-
-.home-slider_post-title a:hover {
-	cursor: pointer;
-	text-decoration: underline;
-}
-
-.wp-block-getwid-template-post-link .home-slider_post-more {
-	margin: 0;
-	padding: 0 10px;
-  	position: absolute;
-  	top: 370px;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-	width: fit-content;
-  	height: auto;
-	
-  	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
-	font-weight: 700;
-  	text-transform: uppercase;
-	color: white;
-	text-decoration: none;  
-  
-	background-color: grey;
-	transition: ease-in-out 0.3s;
-}
-
-.wp-block-getwid-template-post-link .home-slider_post-more:hover {
-	cursor: pointer;
-	background-color: black !important;
-}
-
-.home-slider_custom-field {
-	margin-bottom: 0;
-}
-
-.home-slider_custom-field {
-	margin-bottom: 0;
-} */
 
 /*--------------------------------------------------------------
 ## Landing Page
