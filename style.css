@@ -1215,7 +1215,7 @@ body {
 .home-slider_post-more:hover {
 	cursor: pointer;
 	background-color: lightgray;
-	color: black;
+	color: black !important;
 }
 
 .home-slider_custom-field {
