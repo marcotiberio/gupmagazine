@@ -35,6 +35,8 @@
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
 
+    <!-- It needs to be hidden from here -->
+
     <div id="post-title">
         <h2><?php the_field('portfolio_title'); ?></h2>
     </div>
@@ -90,6 +92,8 @@
         </div>
 		
     </div>
+
+    <!-- To here -->
 	
 </div>
 
