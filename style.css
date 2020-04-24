@@ -1218,6 +1218,11 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+	
+	.wp-block-getwid-template-post-featured-background-image__content {
+		background: white;
+    	margin-top: 90%;
+	}
 
 	.home-slider_post-more {
 		margin: 6% 20%;
