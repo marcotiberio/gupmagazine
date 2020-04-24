@@ -1219,7 +1219,7 @@ body {
 
 @media only screen and (max-width: 900px) {
 
-	home-slider_post-more {
+	.home-slider_post-more {
 		margin: 6% 20%;
 		padding: 0;
 	}
