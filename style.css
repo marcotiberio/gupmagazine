@@ -1222,6 +1222,29 @@ body {
 	margin-bottom: 0;
 }
 
+@media only screen and (max-width: 900px) {
+
+	home-slider_post-more {
+		margin: 6% 20%;
+		padding: 0;
+		/* position: absolute;
+		top: 370px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: fit-content; */
+		  height: auto;
+		
+		font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+		  font-weight: 700;
+		text-transform: uppercase;
+		color: white;
+	  
+		background-color: grey;
+		/* transition: ease-in-out 0.3s; */
+	}
+
+}
+
 /*--------------------------------------------------------------
 ## Landing Page
 --------------------------------------------------------------*/
