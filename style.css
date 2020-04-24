@@ -1496,7 +1496,7 @@ body {
 @media only screen and (max-width: 900px) {
 	
 	.entry-content {
-		/* margin-top: 70px; */
+		margin-top: 0;
 	}
 
 }
