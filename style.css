@@ -1215,7 +1215,7 @@ body {
 	
 	.wp-block-getwid-template-post-featured-background-image__content {
 		background: white;
-    	margin-top: 40%;
+    	margin-top: 20%;
 	}
 
 	.home-slider_post-more {
@@ -1495,7 +1495,7 @@ body {
 
 @media only screen and (max-width: 900px) {
 	
-	.entry-content {
+	.type-post .entry-content {
 		margin-top: 0;
 	}
 
