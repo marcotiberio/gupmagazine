@@ -90,15 +90,18 @@
 			</div>
 		</div>
 		<div class="column">
+			<?php if( get_field('current_issue_cover') ): ?>
 			<h4>CURRENT ISSUE</h4>
-			<p>
-			GUP Magazine<br>
-			Lindengracht 35<br>
-			1015 KB Amsterdam<br>
-			The Netherlands<br>
-			<br>
-			<a href="#" target="_blank">BUY</a>
-			</p>
+			<p><?php the_field('current_issue_cover'); ?></p>
+			<?php if( get_field('current_issue_cover') ): ?>
+			<?php 
+					$image = get_field('current_issue_cover');
+					$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+					if( $image ) {
+						echo wp_get_attachment_image( $image, $size );
+					} ?>
+			<?php endif; ?>
+			<?php endif; ?>
 		</div>
 		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes_logo.png" alt=""></div>
 		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/gupnew_logo.png" alt=""></div>
