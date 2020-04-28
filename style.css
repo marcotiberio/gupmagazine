@@ -1130,8 +1130,8 @@ body {
 	width: 100%;
 	height: 91%;
 
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
     padding: 5% 10%;
 
 	border-top: 1px solid darkgrey;
@@ -1151,12 +1151,12 @@ body {
 	list-style: none;
 }
 
-#menuOverlay .column2 {
+#menuOverlay .column {
 	border-left: 1px solid darkgrey;
     padding-left: 30%;
 }
 
-#menuOverlay .column3 {
+#menuOverlay .column {
 	border-left: 1px solid darkgrey;
     padding-left: 30%;
 }

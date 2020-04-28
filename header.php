@@ -70,7 +70,7 @@
 			'menu_id'        => 'overlay-menu',
 		) );
 		?>
-		<div class="column2">
+		<div class="column">
 			<h4>EDITORIAL OFFICE</h4>
 			<p>
 			GUP Magazine<br>
@@ -81,7 +81,18 @@
 			<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 			</p>
 		</div>
-		<div class="column3">
+		<div class="column">
+			<h4>EDITORIAL OFFICE</h4>
+			<p>
+			GUP Magazine<br>
+			Lindengracht 35<br>
+			1015 KB Amsterdam<br>
+			The Netherlands<br>
+			<br>
+			<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
+			</p>
+		</div>
+		<div class="column">
 			<h4>CURRENT ISSUE</h4>
 			<p>
 			GUP Magazine<br>
@@ -92,12 +103,10 @@
 			<a href="#" target="_blank">BUY</a>
 			</p>
 		</div>
-		<div class="row--sponsors">
-			<div><img src="assets/img/fresheyes_logo.png" alt="" style="width:100%;"></div>
-			<div><img src="assets/img/gupnew_logo.png" alt="" style="width:100%;"></div>
-			<div><img src="assets/img/fritzkola_logo.png" alt="" style="width:100%;"></div>
-			<div><img src="assets/img/brinkhof_logo.png" alt="" style="width:100%;"></div>
-		</div>
+		<div><img src="assets/img/fresheyes_logo.png" alt="" style="width:100%;"></div>
+		<div><img src="assets/img/gupnew_logo.png" alt="" style="width:100%;"></div>
+		<div><img src="assets/img/fritzkola_logo.png" alt="" style="width:100%;"></div>
+		<div><img src="assets/img/brinkhof_logo.png" alt="" style="width:100%;"></div>
 	</section>
 
 	<div id="content" class="site-content">
