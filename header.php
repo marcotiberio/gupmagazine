@@ -57,6 +57,8 @@
 		</div><!-- #site-navigation -->
 		<div class="nav--search">
 			<?php get_search_form(); ?>
+		</div>
+		<div class="nav--overlay">
 			<p>X</p>
 		</div>
 	</header><!-- #masthead -->
