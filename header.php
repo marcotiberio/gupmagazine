@@ -103,10 +103,10 @@
 			<?php endif; ?>
 			<?php endif; ?>
 		</div>
-		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes_logo.png" alt=""></div>
-		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/gupnew_logo.png" alt=""></div>
-		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fritzkola_logo.png" alt=""></div>
-		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/brinkhof_logo.png" alt=""></div>
+		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes_logo2.png" alt=""></div>
+		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/gupnew_logo2.png" alt=""></div>
+		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fritzkola_logo2.png" alt=""></div>
+		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/brinkhof_logo2.png" alt=""></div>
 	</section>
 
 	<div id="content" class="site-content">
