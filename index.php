@@ -15,6 +15,52 @@
 get_header();
 ?>
 
+<section id="menuOverlay">
+		<?php
+		wp_nav_menu( array(
+			'theme_location' => 'overlay-menu',
+			'menu_id'        => 'overlay-menu',
+		) );
+		?>
+		<div class="column">
+			<h4>EDITORIAL OFFICE</h4>
+			<p>
+			GUP Magazine<br>
+			Lindengracht 35<br>
+			1015 KB Amsterdam<br>
+			The Netherlands<br>
+			<br>
+			<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
+			</p>
+		</div>
+		<div class="column">
+		<h4>FOLLOW US</h4>
+			<div class="social-footer">
+				<div><a href="https://www.facebook.com/GUP.magazine/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></div>
+				<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
+				<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
+			</div>
+		</div>
+		<div class="column">
+			<?php if( get_field('current_issue_cover') ): ?>
+			<h4>CURRENT ISSUE</h4>
+			<p><?php the_field('current_issue_cover'); ?></p>
+			<?php if( get_field('current_issue_cover') ): ?>
+			<?php 
+					$image = get_field('current_issue_cover');
+					$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+					if( $image ) {
+						echo wp_get_attachment_image( $image, $size );
+					} ?>
+			<?php endif; ?>
+			<?php endif; ?>
+		</div>
+		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes_logo.png" alt=""></div>
+		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/gupnew_logo.png" alt=""></div>
+		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fritzkola_logo.png" alt=""></div>
+		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/brinkhof_logo.png" alt=""></div>
+	</section>
+
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
 
