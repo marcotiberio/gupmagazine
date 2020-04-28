@@ -70,6 +70,8 @@
 			'menu_id'        => 'overlay-menu',
 		) );
 		?>
+		<div>Test</div>
+		<div>Test</div>
 	</section>
 
 	<div id="content" class="site-content">
