@@ -1,4 +1,4 @@
 /* Compatibility Mode */
-jQuery('#closeModal').on('click', function() {
-   jQuery("#modal").hide();
+jQuery('#openOverlay').on('click', function() {
+   jQuery("#menuOverlay").toggle();
 })

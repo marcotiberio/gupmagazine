@@ -1119,6 +1119,18 @@ body {
 
 .nav--overlay {
 	padding-top: 18px;
+	cursor: pointer;
+}
+
+.menu--overlay {
+	display: none;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	border: 5px solid black;
 }
 
 @media only screen and (max-width: 900px) {

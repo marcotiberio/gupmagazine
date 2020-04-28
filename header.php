@@ -59,8 +59,12 @@
 			<?php get_search_form(); ?>
 		</div>
 		<div class="nav--overlay">
-			<i class="fas fa-bars"></i>
+			<i class="fas fa-bars" id="open_overlay"></i>
 		</div>
 	</header><!-- #masthead -->
+
+	<section class="menu--overlay">
+		Ciao
+	</section>
 
 	<div id="content" class="site-content">
