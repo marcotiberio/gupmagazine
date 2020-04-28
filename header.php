@@ -83,7 +83,7 @@
 		</div>
 		<div class="column">
 		<h4>FOLLOW US</h4>
-			<div class="social-footer">
+			<div class="social-footer" style="margin: 0;">
 				<div><a href="https://www.facebook.com/GUP.magazine/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></div>
 				<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
 				<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
