@@ -49,95 +49,97 @@
     	<!-- CUSTOM POST LAYOUT -->
     	<!-- CUSTOM POST LAYOUT -->
 
-		<div id="post-title">
-			<h2><?php the_field('book_title'); ?></h2>
-		</div>
-
-		<hr style="margin: 0 10%;">
-		
-		<div id="post-credits_mobile-title">
-			<h4>CREDITS</h4>
-		</div>
-
-		<div id="post-content">
-			<div class="post-credits" id="toggle-credits-mobile">
-				<div>
-					<?php if( get_field('book_credits_author') ): ?>
-					<h4>GUP Author</h4>
-					<p><?php the_field('book_credits_author'); ?></p>
-					<?php endif; ?>
-				</div>
-				<hr style="margin-right:40%;">
-				<div>
-					<?php if( get_field('book_credits_artist') ): ?>
-					<h4>Artist</h4>
-					<p><?php the_field('book_credits_artist'); ?></p>
-					<?php endif; ?>
-				</div>
-				<div>
-					<?php if( get_field('book_credits_artist-website') ): ?>
-					<h4>Artist Website</h4>
-					<p><?php the_field('book_credits_artist-website'); ?></p>
-					<?php endif; ?>
-				</div>
-				<div>
-					<?php if( get_field('book_credits_artist-social-media') ): ?>
-					<h4>Artist Social Media</h4>
-					<p><?php the_field('book_credits_artist-social-media'); ?></p>
-					<?php endif; ?>
-				</div>
-				<hr style="margin-right:40%;">
-				<div>
-					<?php if( get_field('book_credits_book-title') ): ?>
-					<h4>Title</h4>
-					<p><?php the_field('book_credits_book-title'); ?></p>
-					<?php if( get_field('book_credits_book-cover') ): ?>
-					<?php 
-							$image = get_field('book_credits_book-cover');
-							$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
-							if( $image ) {
-								echo wp_get_attachment_image( $image, $size );
-							} ?>
-					<?php endif; ?>
-					<?php endif; ?>
-				</div>
-				<div>
-					<?php if( get_field('book_credits_book-publisher') ): ?>
-					<h4>Publisher</h4>
-					<p><?php the_field('book_credits_book-publisher'); ?></p>
-					<?php endif; ?>
-				</div>
-				<div>
-					<?php if( get_field('book_credits_book-format') ): ?>
-					<h4>Format</h4>
-					<p><?php the_field('book_credits_book-format'); ?></p>
-					<?php endif; ?>
-				</div>
-				<div>
-					<?php if( get_field('book_credits_book-price') ): ?>
-					<h4>Price</h4>
-					<p><?php the_field('book_credits_book-price'); ?></p>
-					<?php endif; ?>
-				</div>
-				<div>
-					<?php if( get_field('book_credits_publisher-website') ): ?>
-					<h4>Publisher Website</h4>
-					<p><?php the_field('book_credits_publisher-website'); ?></p>
-					<?php endif; ?>
-				</div>
-				<div>
-					<?php if( get_field('book_credits_publisher-social-media') ): ?>
-					<h4>Publisher Social Media</h4>
-					<p><?php the_field('book_credits_publisher-social-media'); ?></p>
-					<?php endif; ?>
-				</div>
+		<?php if ( memberful_can_user_access_post( get_current_user_id(), get_the_ID() ) ) { ?>
+			<div id="post-title">
+				<h2><?php the_field('book_title'); ?></h2>
 			</div>
 
-			<div class="post-text">
-				<p><?php the_field('book_text'); ?></p>
+			<hr style="margin: 0 10%;">
+			
+			<div id="post-credits_mobile-title">
+				<h4>CREDITS</h4>
 			</div>
 
-		</div>
+			<div id="post-content">
+				<div class="post-credits" id="toggle-credits-mobile">
+					<div>
+						<?php if( get_field('book_credits_author') ): ?>
+						<h4>GUP Author</h4>
+						<p><?php the_field('book_credits_author'); ?></p>
+						<?php endif; ?>
+					</div>
+					<hr style="margin-right:40%;">
+					<div>
+						<?php if( get_field('book_credits_artist') ): ?>
+						<h4>Artist</h4>
+						<p><?php the_field('book_credits_artist'); ?></p>
+						<?php endif; ?>
+					</div>
+					<div>
+						<?php if( get_field('book_credits_artist-website') ): ?>
+						<h4>Artist Website</h4>
+						<p><?php the_field('book_credits_artist-website'); ?></p>
+						<?php endif; ?>
+					</div>
+					<div>
+						<?php if( get_field('book_credits_artist-social-media') ): ?>
+						<h4>Artist Social Media</h4>
+						<p><?php the_field('book_credits_artist-social-media'); ?></p>
+						<?php endif; ?>
+					</div>
+					<hr style="margin-right:40%;">
+					<div>
+						<?php if( get_field('book_credits_book-title') ): ?>
+						<h4>Title</h4>
+						<p><?php the_field('book_credits_book-title'); ?></p>
+						<?php if( get_field('book_credits_book-cover') ): ?>
+						<?php 
+								$image = get_field('book_credits_book-cover');
+								$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+								if( $image ) {
+									echo wp_get_attachment_image( $image, $size );
+								} ?>
+						<?php endif; ?>
+						<?php endif; ?>
+					</div>
+					<div>
+						<?php if( get_field('book_credits_book-publisher') ): ?>
+						<h4>Publisher</h4>
+						<p><?php the_field('book_credits_book-publisher'); ?></p>
+						<?php endif; ?>
+					</div>
+					<div>
+						<?php if( get_field('book_credits_book-format') ): ?>
+						<h4>Format</h4>
+						<p><?php the_field('book_credits_book-format'); ?></p>
+						<?php endif; ?>
+					</div>
+					<div>
+						<?php if( get_field('book_credits_book-price') ): ?>
+						<h4>Price</h4>
+						<p><?php the_field('book_credits_book-price'); ?></p>
+						<?php endif; ?>
+					</div>
+					<div>
+						<?php if( get_field('book_credits_publisher-website') ): ?>
+						<h4>Publisher Website</h4>
+						<p><?php the_field('book_credits_publisher-website'); ?></p>
+						<?php endif; ?>
+					</div>
+					<div>
+						<?php if( get_field('book_credits_publisher-social-media') ): ?>
+						<h4>Publisher Social Media</h4>
+						<p><?php the_field('book_credits_publisher-social-media'); ?></p>
+						<?php endif; ?>
+					</div>
+				</div>
+
+				<div class="post-text">
+					<p><?php the_field('book_text'); ?></p>
+				</div>
+
+			</div>
+		<?php } ?>
 
 	</div><!-- .entry-content -->
 
