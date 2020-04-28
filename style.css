@@ -1132,7 +1132,7 @@ body {
 
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-    padding: 5% 10%;
+    padding: 4% 10%;
 
 	border-top: 1px solid darkgrey;
 	background-color: white;
