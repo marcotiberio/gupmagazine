@@ -1123,7 +1123,7 @@ body {
 }
 
 #menuOverlay {
-	display: grid;
+	display: none;
 	position: fixed;
 	top: 70px;
 	left: 0;
