@@ -64,7 +64,18 @@
 	</header><!-- #masthead -->
 
 	<section id="menuOverlay">
-		Ciao
+		<?php
+		wp_nav_menu( array(
+			'theme_location' => 'menu-1',
+			'menu_id'        => 'primary-menu',
+		) );
+		?>
+		<?php
+		wp_nav_menu( array(
+			'theme_location' => 'footer-menu',
+			'menu_id'        => 'footer-menu',
+		) );
+		?>
 	</section>
 
 	<div id="content" class="site-content">
