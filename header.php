@@ -59,11 +59,11 @@
 			<?php get_search_form(); ?>
 		</div>
 		<div class="nav--overlay">
-			<i class="fas fa-bars" id="openOverlay"></i>
+			<i class="fas fa-bars" id="open_menuOverlay" onclick="myFunction()"></i>
 		</div>
 	</header><!-- #masthead -->
 
-	<section class="menu--overlay" id="menuOverlay">
+	<section id="menuOverlay">
 		Ciao
 	</section>
 
