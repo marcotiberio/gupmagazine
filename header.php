@@ -70,8 +70,28 @@
 			'menu_id'        => 'overlay-menu',
 		) );
 		?>
-		<div>Test</div>
-		<div>Test</div>
+		<div>
+			<h4>EDITORIAL OFFICE</h4>
+			<p>
+			GUP Magazine<br>
+			Lindengracht 35<br>
+			1015 KB Amsterdam<br>
+			The Netherlands<br>
+			<br>
+			<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
+			</p>
+		</div>
+		<div>
+			<h4>CURRENT ISSUE</h4>
+			<p>
+			GUP Magazine<br>
+			Lindengracht 35<br>
+			1015 KB Amsterdam<br>
+			The Netherlands<br>
+			<br>
+			<a href="#" target="_blank">BUY</a>
+			</p>
+		</div>
 	</section>
 
 	<div id="content" class="site-content">
