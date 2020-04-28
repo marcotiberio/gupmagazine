@@ -1149,7 +1149,19 @@ body {
 #overlay-menu {
 	display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 2fr;
+	grid-template-rows: 2fr;
+	
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.menu-overlay-menu-container #overlay-menu .menu-item a {
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    font-weight: 400;
+    color: white;
+	text-transform: uppercase;
 }
 
 @media only screen and (max-width: 900px) {
