@@ -1197,6 +1197,7 @@ body {
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 1fr;
 
+	width: 100%;
 	padding: 5% 10%;
 }
 
