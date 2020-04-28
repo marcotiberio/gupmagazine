@@ -66,14 +66,8 @@
 	<section id="menuOverlay">
 		<?php
 		wp_nav_menu( array(
-			'theme_location' => 'menu-1',
-			'menu_id'        => 'primary-menu',
-		) );
-		?>
-		<?php
-		wp_nav_menu( array(
-			'theme_location' => 'footer-menu',
-			'menu_id'        => 'footer-menu',
+			'theme_location' => 'overlay-menu',
+			'menu_id'        => 'overlay-menu',
 		) );
 		?>
 	</section>
