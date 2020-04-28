@@ -1132,7 +1132,7 @@ body {
 
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
-    padding: 10%;
+    padding: 5% 10%;
 
 	background-color: white;
 
@@ -1152,12 +1152,12 @@ body {
 
 #menuOverlay .column2 {
 	border-left: 1px solid darkgrey;
-    padding-left: 10%;
+    padding-left: 30%;
 }
 
 #menuOverlay .column3 {
 	border-left: 1px solid darkgrey;
-    padding-left: 10%;
+    padding-left: 30%;
 }
 
 #overlay-menu {
