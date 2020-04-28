@@ -49,8 +49,6 @@
     	<!-- CUSTOM POST LAYOUT -->
     	<!-- CUSTOM POST LAYOUT -->
 
-		<?php if ( is_subscribed_to_memberful_plan( '47422-premium-membership' ) ) : ?>
-
 		<div id="post-title">
 			<h2><?php the_field('book_title'); ?></h2>
 		</div>
@@ -140,8 +138,6 @@
 			</div>
 
 		</div>
-		
-		<?php endif; ?>
 
 	</div><!-- .entry-content -->
 
