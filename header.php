@@ -103,10 +103,10 @@
 			<a href="#" target="_blank">BUY</a>
 			</p>
 		</div>
-		<div><img src="assets/img/fresheyes_logo.png" alt="" style="width:100%;"></div>
-		<div><img src="assets/img/gupnew_logo.png" alt="" style="width:100%;"></div>
-		<div><img src="assets/img/fritzkola_logo.png" alt="" style="width:100%;"></div>
-		<div><img src="assets/img/brinkhof_logo.png" alt="" style="width:100%;"></div>
+		<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes_logo.png" alt="" style="width:100%;"></div>
+		<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes_logo.png" alt="" style="width:100%;"></div>
+		<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes_logo.png" alt="" style="width:100%;"></div>
+		<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes_logo.png" alt="" style="width:100%;"></div>
 	</section>
 
 	<div id="content" class="site-content">
