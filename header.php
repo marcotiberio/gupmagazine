@@ -92,6 +92,7 @@
 		<div class="column">
 			<h4>CURRENT ISSUE</h4>
 			<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/03/64-e1585331048652.png" alt=""></div>
+			<a href="#" target="_blank">BUY</a>
 		</div>
 		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes.png" alt=""></div>
 		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/GUP-NEW-logo-2019.1.png" alt=""></div>
