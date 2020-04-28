@@ -93,10 +93,10 @@
 			</p>
 		</div>
 		<div class="row--sponsors">
-			<div><img src="assets/img/fresheyes_logo.png" alt=""></div>
-			<div><img src="assets/img/gupnew_logo.png" alt=""></div>
-			<div><img src="assets/img/fritzkola_logo.png" alt=""></div>
-			<div><img src="assets/img/brinkhof_logo.png" alt=""></div>
+			<div><img src="assets/img/fresheyes_logo.png" alt="" style="width:100%;"></div>
+			<div><img src="assets/img/gupnew_logo.png" alt="" style="width:100%;"></div>
+			<div><img src="assets/img/fritzkola_logo.png" alt="" style="width:100%;"></div>
+			<div><img src="assets/img/brinkhof_logo.png" alt="" style="width:100%;"></div>
 		</div>
 	</section>
 
