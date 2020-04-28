@@ -1162,7 +1162,7 @@ body {
 }
 
 #overlay-menu {
-	display: grid;
+	display: none;
     grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 2fr;
 	
