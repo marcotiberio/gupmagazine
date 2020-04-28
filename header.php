@@ -92,6 +92,12 @@
 			<a href="#" target="_blank">BUY</a>
 			</p>
 		</div>
+		<div class="row--sponsors">
+			<div>Image</div>
+			<div>Image</div>
+			<div>Image</div>
+			<div>Image</div>
+		</div>
 	</section>
 
 	<div id="content" class="site-content">
