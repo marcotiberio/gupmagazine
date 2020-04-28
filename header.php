@@ -70,7 +70,7 @@
 			'menu_id'        => 'overlay-menu',
 		) );
 		?>
-		<div>
+		<div class="column2">
 			<h4>EDITORIAL OFFICE</h4>
 			<p>
 			GUP Magazine<br>
@@ -81,7 +81,7 @@
 			<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 			</p>
 		</div>
-		<div>
+		<div class="column3">
 			<h4>CURRENT ISSUE</h4>
 			<p>
 			GUP Magazine<br>
