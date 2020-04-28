@@ -13,9 +13,13 @@
 
             <?php
 		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content-custom-books', get_post_type() );
+            the_post();
+            
+            get_template_part( 'template-parts/content-custom-books', get_post_type() );
+			// Render the template only if someone has access to the post.
+			if ( memberful_can_user_access_post( get_current_user_id(), $post->ID ) ) {
+				get_template_part( 'template-parts/content-custom-books', get_post_type() );
+			}
 
 			the_post_navigation();
 
