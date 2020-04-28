@@ -90,18 +90,8 @@
 			</div>
 		</div>
 		<div class="column">
-			<?php if( get_field('current_issue_cover') ): ?>
 			<h4>CURRENT ISSUE</h4>
-			<p><?php the_field('current_issue_cover'); ?></p>
-			<?php if( get_field('current_issue_cover') ): ?>
-			<?php 
-					$image = get_field('current_issue_cover');
-					$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
-					if( $image ) {
-						echo wp_get_attachment_image( $image, $size );
-					} ?>
-			<?php endif; ?>
-			<?php endif; ?>
+			<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/03/64-e1585331048652.png" alt=""></div>
 		</div>
 		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes.png" alt=""></div>
 		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/GUP-NEW-logo-2019.1.png" alt=""></div>
