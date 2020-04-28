@@ -59,7 +59,7 @@
 			<?php get_search_form(); ?>
 		</div>
 		<div class="nav--overlay">
-			<p>X</p>
+			<p>x</p>
 		</div>
 	</header><!-- #masthead -->
 
