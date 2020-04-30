@@ -34,6 +34,8 @@
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
 
+    <?php if ( memberful_can_user_access_post( get_current_user_id(), get_the_ID() ) ) { ?>
+
     <div id="post-title">
         <h2><?php the_field('event_title'); ?></h2>
     </div>
@@ -83,6 +85,7 @@
         </div>
 		
     </div>
+    <?php } ?>
 	
 </div>
 
