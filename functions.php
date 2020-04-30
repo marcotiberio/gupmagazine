@@ -119,6 +119,7 @@ function gup_underscore_widgets_init() {
 }
 add_action( 'widgets_init', 'gup_underscore_widgets_init' );
 
+
 /**
  * Enqueue scripts and styles.
  */
@@ -138,6 +139,24 @@ function gup_underscore_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'gup_underscore_scripts' );
+
+/**
+ * Enqueue jquery.
+ */
+function include_jquery()
+{
+
+    
+    wp_deregister_script('jquery');
+
+    wp_enqueue_script('jquery', get_template_directory_uri() . 'js/jquery-3.5.0.min.js', '20151215', 1, true);
+
+    add_action('wp_enqueue_scripts', 'jquery');
+
+
+
+}
+add_action('wp_enqueue_scripts', 'include_jquery');
 
 // Register a slider block.
 add_action('acf/init', 'my_register_blocks');
