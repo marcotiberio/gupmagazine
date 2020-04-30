@@ -1214,7 +1214,7 @@ body {
     background-color: grey;
 }
 
-.buy--button :hover {
+.buy--button:hover {
     background-color: lightgray;
 }
 
