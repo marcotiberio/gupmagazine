@@ -126,11 +126,6 @@ add_action( 'widgets_init', 'gup_underscore_widgets_init' );
 function gup_underscore_scripts() {
 	wp_enqueue_style( 'gup_underscore-style', get_stylesheet_uri() );
 
-	wp_deregister_script( 'jquery' );
-
-	$jquery_cdn = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js';
-	wp_enqueue_script( 'jquery', $jquery_cdn, array(), '3.4.1', true );
-
 	wp_enqueue_script( 'gup_underscore-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'gup_underscore-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
