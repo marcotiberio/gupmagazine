@@ -37,7 +37,7 @@
 						<header class="entry-header">
 							<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
 							<h5 class="post-subtitle"><?php the_field('post_subtitle'); ?></h5>
-							<h6 class="post-date"><?php the_time('m/j/y g:i A') ?></h5>
+							<h6 class="post-date"><?php the_time('m/j/y') ?></h5>
 						</header>
 						<div class="entry-content">
 							<?php the_excerpt(); ?>

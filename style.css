@@ -1736,6 +1736,10 @@ body {
 	margin: 0;
 }
 
+.latestpost--custom .entry-header .post-date {
+	margin: 0;
+}
+
 .latest-posts {
 	margin: 0;
 	padding: 0;
