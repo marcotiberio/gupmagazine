@@ -4,7 +4,7 @@ jQuery( document ).ready(function($) {
 
 $(document).ready(function(){
   $("#open_menuOverlay").click(function(){
-    $("#menuOverlay").slideToggle();
+    $("#menuOverlay").slideToggle("fast");
   });
 });
 
