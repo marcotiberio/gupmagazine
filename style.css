@@ -1203,6 +1203,17 @@ body {
 	color: lightgray !important;
 }
 
+.buy--button {
+	margin: 1% 44%; */
+    padding: 0;
+    height: auto;
+    font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-color: grey;
+}
+
 .sponsor-image img {
 	width: 100%;
 	padding: 15%;
