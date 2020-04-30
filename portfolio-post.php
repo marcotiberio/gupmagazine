@@ -74,11 +74,12 @@
                 <?php endif; ?>
             </div>
             <div>
+                <h4>Artist Social Media</h4>
                 <?php if( get_field('facebook') ): ?>
-                    <p><a href="<?php echo the_field('facebook'); ?>">Facebook</i></a></p>
+                    <p><a href="<?php echo the_field('facebook'); ?>">Facebook</a></p>
                 <?php endif; ?>
                 <?php if( get_field('instagram') ): ?>
-                    <p><a href="<?php echo the_field('instagram'); ?>">Instagram</i></a></p>
+                    <p><a href="<?php echo the_field('instagram'); ?>">Instagram</a></p>
                 <?php endif; ?>
             </div>
         </div>
