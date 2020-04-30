@@ -1118,6 +1118,8 @@ body {
 
 .nav--search form{
 	padding-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .nav--overlay {
