@@ -1204,14 +1204,26 @@ body {
 }
 
 .buy--button {
-	margin: 1% 44%;
-    padding: 0;
+	margin: 0;
+    width: fit-content;
+    padding: 1% 3%;
     height: auto;
     font-family: "myriad-pro", Helvetica, Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: white;
     background-color: grey;
+}
+
+.buy--button :hover {
+    background-color: lightgray;
+}
+
+.buy--button a {
+	color: white;
+}
+
+.buy--button a:hover {
+	color: darkgrey;
 }
 
 .sponsor-image img {
