@@ -1984,6 +1984,8 @@ body {
 	padding: 70px;
 	
 	background-image: url('https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/Screenshot-2020-04-30-at-12.56.30.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
