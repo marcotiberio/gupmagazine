@@ -1241,7 +1241,7 @@ body {
 	}
 
 	.nav--overlay {
-		display: none;
+		display: block;
 	}
 }
 
