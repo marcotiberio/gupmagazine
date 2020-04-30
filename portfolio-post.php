@@ -74,13 +74,14 @@
                 <?php endif; ?>
             </div>
             <div>
-                <?php if( get_field('facebook') ): ?>
-                    <h4>Facebook</h4>
-                    <p><a href="<?php echo the_field('facebook'); ?>"><i class="fa fa-facebook"></i></a></>
-                <?php endif; ?>
-                <?php if( get_field('instagram') ): ?>
-                    <h4>Instagram</h4>
-                    <p><a href="<?php echo the_field('instagram'); ?>"><i class="fa fa-twitter"></i></a></p>
+                <?php if( get_field('portfolio_credits_artist-social-media') ): ?>
+                    <h4>Artist Social Media</h4>
+                    <?php if( get_field('facebook') ): ?>
+                        <p><a href="<?php echo the_field('facebook'); ?>"><i class="fa fa-facebook"></i></a></>
+                    <?php endif; ?>
+                    <?php if( get_field('instagram') ): ?>
+                        <p><a href="<?php echo the_field('instagram'); ?>"><i class="fa fa-twitter"></i></a></p>
+                    <?php endif; ?>
                 <?php endif; ?>
             </div>
         </div>
