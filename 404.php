@@ -19,3 +19,6 @@ get_header();
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+<?php
+get_footer();
