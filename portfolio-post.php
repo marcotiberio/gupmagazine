@@ -76,10 +76,10 @@
             <div>
                 <h4>Artist Social Media</h4>
                 <?php if( get_field('facebook') ): ?>
-                    <a href="<?php echo the_field('facebook'); ?>">Facebook</a>
+                    <a href="<?php echo the_field('facebook'); ?>" target="_blank">Facebook</a>
                 <?php endif; ?>
                 <?php if( get_field('instagram') ): ?>
-                    <a href="<?php echo the_field('instagram'); ?>">Instagram</a>
+                    <a href="<?php echo the_field('instagram'); ?>" target="_blank">Instagram</a>
                 <?php endif; ?>
             </div>
         </div>
