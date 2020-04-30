@@ -1942,7 +1942,7 @@ body {
 ## Error 404 Page
 --------------------------------------------------------------*/
 
-.error-404 .not-found {
+.page-not-found {
 	height: 100vh;
     width: 100vw;
     position: relative;

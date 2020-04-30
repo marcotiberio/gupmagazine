@@ -13,7 +13,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-			<section class="error-404 not-found">
+			<section class="page-not-found">
 				<p>OH NO THIS IS EMBARASSING</p>
 			</section><!-- .error-404 -->
 
