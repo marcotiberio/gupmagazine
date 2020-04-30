@@ -3,3 +3,9 @@ $(document).ready(function(){
     $("#menuOverlay").slideToggle("fast");
   });
 });
+
+$(document).ready(function(){
+  $("#menu-toggleMobile").click(function(){
+    $("#menuOverlay").slideToggle("fast");
+  });
+});
