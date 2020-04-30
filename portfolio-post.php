@@ -74,12 +74,12 @@
                 <?php endif; ?>
             </div>
             <div>
-            <?php if( get_field('facebook') ): ?>
-			<li><a href="<?php echo the_field('facebook'); ?>"><i class="fa fa-facebook"></i></a></li>
-		<?php endif; ?>
-		<?php if( get_field('instagram') ): ?>
-			<li><a href="<?php echo the_field('instagram'); ?>"><i class="fa fa-twitter"></i></a></li>
-		<?php endif; ?>
+                <?php if( get_field('facebook') ): ?>
+                    <span><a href="<?php echo the_field('facebook'); ?>"><i class="fa fa-facebook"></i></a></span>
+                <?php endif; ?>
+                <?php if( get_field('instagram') ): ?>
+                    <span><a href="<?php echo the_field('instagram'); ?>"><i class="fa fa-twitter"></i></a></span>
+                <?php endif; ?>
             </div>
         </div>
 
