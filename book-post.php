@@ -61,10 +61,16 @@
 						<?php endif; ?>
 					</div>
 					<div>
-						<?php if( get_field('book_credits_artist-website') ): ?>
+						<?php 
+                		$link = get_field('book_credits_artist-website');
+                		if( $link ): 
+						$link_url = $link['url'];
+						$link_title = $link['title'];
+						$link_target = $link['target'] ? $link['target'] : '_blank';
+						?>
 						<h4>Artist Website</h4>
-						<p><?php the_field('book_credits_artist-website'); ?></p>
-						<?php endif; ?>
+						<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                <?php endif; ?>
 					</div>
 					<div>
 						<?php if( get_field('book_credits_artist-social-media') ): ?>
@@ -106,10 +112,16 @@
 						<?php endif; ?>
 					</div>
 					<div>
-						<?php if( get_field('book_credits_publisher-website') ): ?>
-						<h4>Publisher Website</h4>
-						<p><?php the_field('book_credits_publisher-website'); ?></p>
-						<?php endif; ?>
+						<?php 
+						$link = get_field('book_credits_publisher-website');
+						if( $link ): 
+						$link_url = $link['url'];
+						$link_title = $link['title'];
+						$link_target = $link['target'] ? $link['target'] : '_blank';
+						?>
+						<h4>Artist Website</h4>
+						<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+					<?php endif; ?>
 					</div>
 					<div>
 						<?php if( get_field('book_credits_publisher-social-media') ): ?>
