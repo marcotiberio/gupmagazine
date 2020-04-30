@@ -1937,3 +1937,15 @@ body {
 #page9-10 {
 	background-color: lightsalmon;
 }
+
+/*--------------------------------------------------------------
+## Error 404 Page
+--------------------------------------------------------------*/
+
+.error-404 .not-found {
+	height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 70px;
+    left: 0;
+}
