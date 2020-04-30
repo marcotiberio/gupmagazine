@@ -64,40 +64,42 @@
 	</header><!-- #masthead -->
 
 	<section id="menuOverlay">
-		<?php
-		wp_nav_menu( array(
-			'theme_location' => 'overlay-menu',
-			'menu_id'        => 'overlay-menu',
-		) );
-		?>
-		<div class="column">
-			<h4>EDITORIAL OFFICE</h4>
-			<p>
-			GUP Magazine<br>
-			Lindengracht 35<br>
-			1015 KB Amsterdam<br>
-			The Netherlands<br>
-			<br>
-			<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
-			</p>
-		</div>
-		<div class="column">
-		<h4>FOLLOW US</h4>
-			<div class="social-footer" style="margin: 0;">
-				<div><a href="https://www.facebook.com/GUP.magazine/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></div>
-				<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
-				<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
+		<main class="menuOverlay--inside">
+			<?php
+			wp_nav_menu( array(
+				'theme_location' => 'overlay-menu',
+				'menu_id'        => 'overlay-menu',
+			) );
+			?>
+			<div class="column">
+				<h4>EDITORIAL OFFICE</h4>
+				<p>
+				GUP Magazine<br>
+				Lindengracht 35<br>
+				1015 KB Amsterdam<br>
+				The Netherlands<br>
+				<br>
+				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
+				</p>
 			</div>
-		</div>
-		<div class="column">
-			<h4>CURRENT ISSUE</h4>
-			<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/03/64-e1585331048652.png" alt=""></div>
-			<a href="#" target="_blank">BUY</a>
-		</div>
-		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes.png" alt=""></div>
-		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/GUP-NEW-logo-2019.1.png" alt=""></div>
-		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/Fritz-Kola-Logo.png" alt=""></div>
-		<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/BRINKHOF_BLACK.png" alt=""></div>
+			<div class="column">
+			<h4>FOLLOW US</h4>
+				<div class="social-footer" style="margin: 0;">
+					<div><a href="https://www.facebook.com/GUP.magazine/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></div>
+					<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
+					<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
+				</div>
+			</div>
+			<div class="column">
+				<h4>CURRENT ISSUE</h4>
+				<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/03/64-e1585331048652.png" alt=""></div>
+				<a href="#" target="_blank">BUY</a>
+			</div>
+			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes.png" alt=""></div>
+			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/GUP-NEW-logo-2019.1.png" alt=""></div>
+			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/Fritz-Kola-Logo.png" alt=""></div>
+			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/BRINKHOF_BLACK.png" alt=""></div>
+		</main>
 	</section>
 
 	<div id="content" class="site-content">
