@@ -71,7 +71,7 @@
 				'menu_id'        => 'overlay-menu',
 			) );
 			?>
-			<div class="column">
+			<div class="column" id="column--hidden_mobile">
 				<h4>EDITORIAL OFFICE</h4>
 				<p>
 				GUP Magazine<br>
@@ -82,7 +82,7 @@
 				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 				</p>
 			</div>
-			<div class="column">
+			<div class="column" id="column--hidden_mobile">
 			<h4>FOLLOW US</h4>
 				<div class="social-footer" style="margin: 0;">
 					<div><a href="https://www.facebook.com/GUP.magazine/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></div>
@@ -90,7 +90,7 @@
 					<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
 				</div>
 			</div>
-			<div class="column">
+			<div class="column" id="column--hidden_mobile">
 				<h4>CURRENT ISSUE</h4>
 				<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/03/64-e1585331048652.png" alt=""></div>
 				<a href="#" target="_blank">BUY</a>

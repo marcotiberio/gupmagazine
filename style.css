@@ -1229,11 +1229,12 @@ body {
 	}
 
 	#primary-menu {
-		background-color: white;
+		display: none;
+		/* background-color: white;
 		position: absolute;
 		width: 100%;
 		left: 0;
-		height: 300px;
+		height: 300px; */
 	}
 
 	#search-form {
@@ -1241,6 +1242,32 @@ body {
 	}
 
 	.nav--overlay {
+		display: none;
+	}
+
+	.menuOverlay--inside {
+		display: grid;
+    	grid-template-columns: 1fr;
+    	grid-template-rows: repeat(4, 1fr);
+    	padding: 4% 10%;
+	}
+
+	#overlay-menu {
+		display: grid;
+    	grid-template-columns: 1fr;
+    	grid-template-rows: repeat(4, 1fr);
+    	padding: 0;
+    	margin-top: 1.33em;
+    	margin-bottom: 1.33em;
+		list-style: none;
+		text-align: center;
+	}
+
+	#column--hidden_mobile {
+		display: none;
+	}
+
+	.sponsor-image {
 		display: none;
 	}
 }
