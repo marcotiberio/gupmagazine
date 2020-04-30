@@ -92,7 +92,7 @@
 			</div>
 			<div class="column" id="column--hidden_mobile">
 				<h4>CURRENT ISSUE</h4>
-				<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/03/64-e1585331048652.png" alt=""></div>
+				<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/gup64-cover.png" alt=""></div>
 				<div class="buy--button"><a href="#" target="_blank">BUY</a></div>
 			</div>
 			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/fresheyes.png" alt=""></div>
