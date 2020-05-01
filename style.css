@@ -260,7 +260,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-	outline: 1px dotted ButtonText;
+	outline: none;
 }
 
 /**
@@ -490,7 +490,7 @@ hr {
 }
 
 ul, ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0;
 }
 
 ul {
@@ -504,7 +504,7 @@ ol {
 li > ul,
 li > ol {
 	margin-bottom: 0;
-	margin-left: 1.5em;
+	margin-left: 0;
 }
 
 dt {
@@ -1274,7 +1274,7 @@ body {
     	padding: 4% 10%;
 	}
 
-	ul #overlay-menu {
+	#overlay-menu {
 		display: grid;
     	grid-template-columns: 1fr !important;
 		grid-template-rows: repeat(4, 1fr) !important;
