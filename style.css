@@ -1287,7 +1287,8 @@ body {
 	ul #overlay-menu {
 		display: grid;
     	grid-template-columns: 1fr !important;
-    	grid-template-rows: repeat(4, 1fr) !important;
+		grid-template-rows: repeat(4, 1fr) !important;
+		row-gap: 6%;
     	padding: 0;
     	margin-top: 1.33em;
     	margin-bottom: 1.33em;
