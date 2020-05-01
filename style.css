@@ -1169,16 +1169,6 @@ body {
     padding-left: 30%;
 }
 
-#overlay-menu {
-	display: none;
-    grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 2fr;
-	
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
 .menu-overlay-menu-container #overlay-menu .menu-item a {
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -1284,7 +1274,7 @@ body {
     	padding: 4% 10%;
 	}
 
-	ul #overlay-menu {
+	#overlay-menu {
 		display: grid;
     	grid-template-columns: 1fr !important;
 		grid-template-rows: repeat(4, 1fr) !important;
