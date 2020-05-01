@@ -1374,6 +1374,30 @@ body {
 	text-decoration: none;
 }
 
+.slick-next:before {
+    content: url(https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/05/next.png);
+}
+
+.slick-prev:before {
+    content: url(https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/05/prev.png);
+}
+
+.slick-next:before  {
+    font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+		color: black !important;
+    font-size: 30px;
+    line-height: 1;
+    opacity: 1;
+}
+
+.slick-prev:before  {
+    font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+		color: black !important;
+    font-size: 30px;
+    line-height: 1;
+    opacity: 1;
+}
+
 @media only screen and (max-width: 900px) {
 	
 	.wp-block-getwid-template-post-featured-background-image__content {
