@@ -1100,14 +1100,6 @@ body {
 	box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
 }
 
-.home #primary-menu .sub-menu {
-	margin: 0;
-	padding: 17% 0 0 0;
-	position: absolute;
-	border: none;
-	box-shadow: none;
-}
-
 #primary-menu .sub-menu li {
 	margin: 0;
 	padding: 5% 0;
