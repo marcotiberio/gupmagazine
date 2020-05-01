@@ -1273,6 +1273,10 @@ body {
 		display: none;
 	}
 
+	.nav-custom {
+		padding-top: 0;
+	}
+
 	.menuOverlay--inside {
 		display: grid;
     	grid-template-columns: 1fr;
@@ -1280,10 +1284,10 @@ body {
     	padding: 4% 10%;
 	}
 
-	#overlay-menu {
+	ul #overlay-menu {
 		display: grid;
-    	grid-template-columns: 1fr;
-    	grid-template-rows: repeat(4, 1fr);
+    	grid-template-columns: 1fr !important;
+    	grid-template-rows: repeat(4, 1fr) !important;
     	padding: 0;
     	margin-top: 1.33em;
     	margin-bottom: 1.33em;
