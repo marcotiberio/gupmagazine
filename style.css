@@ -597,8 +597,9 @@ textarea {
 input[type="search"] {
 	color: #000;
 	border: none;
-	padding: 0;
+	padding-right: 3px;
 	outline: none;
+	direction: rtl;
 }
 
 input[type="text"]:focus,
