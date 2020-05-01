@@ -1410,11 +1410,11 @@ body {
 		padding: 0;
 	}
 
-	.slick-next, .slick-prev {
+	/* .slick-next, .slick-prev {
 		font-size: 0;
 		line-height: 0;
 		position: absolute;
-		top: 40% !important;
+		top: 50% !important;
 		display: block;
 		width: 20px;
 		height: 20px;
@@ -1427,7 +1427,7 @@ body {
 		border: none;
 		outline: 0;
 		background: 0 0;
-	}
+	} */
 
 }
 
