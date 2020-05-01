@@ -1370,6 +1370,23 @@ body {
 	margin-bottom: 0;
 }
 
+.wp-block-getwid-template-post-custom-field {
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+  	font-size: 0.83em;
+	font-weight: 700;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.wp-block-getwid-template-post-date a {
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+  	font-size: 0.67em;
+	font-weight: 700;
+	color: #333333;
+t	ext-transform: uppercase;
+	text-decoration: none;
+}
+
 @media only screen and (max-width: 900px) {
 	
 	.wp-block-getwid-template-post-featured-background-image__content {
