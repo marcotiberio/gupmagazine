@@ -2008,14 +2008,14 @@ body {
 
 .category-archive .entry-content {
 	margin-top: 150px;
-}
-
-.buy--membership {
+	
 	background-image: url(https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/Screenshot-2020-04-30-at-12.56.30.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
 
+.buy--membership {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
