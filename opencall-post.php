@@ -83,15 +83,16 @@
 
     <?php } else { ?>
 		<!-- There is some issue with them styling and the following div is hidden under the menu without the top margin -->
-		<div style="margin-top: 150px">
-			<p>
-				Enjoy unlimited digital access to the archives of GUP Magazine, with new material specifically crafted for a better online experience.
-			</p>
-			
-			<p>
-				<a href="https://gupmagazine.memberful.com/checkout?plan=47422">Premium plan</a>
-			</p>
-			
+		<div class="buy--membership">
+			<div id="text">
+				<h2>Enjoy unlimited digital access to the archives of GUP Magazine</h2> 
+				<h3>With new material specifically crafted for a better online experience.</h3>
+				<br>
+				<h2>45€/year</h2>
+				<p>You can cancel anytime</p>
+				<a href="https://gupmagazine.memberful.com/checkout?plan=47422">Subscribe now</a>
+			</div>
+			<div></div>
 		</div>		
 	<?php } ?>
 	
