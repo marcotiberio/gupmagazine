@@ -34,7 +34,7 @@
     	<!-- CUSTOM POST LAYOUT -->
     	<!-- CUSTOM POST LAYOUT -->
 
-		<?php if ( memberful_can_user_access_post( get_current_user_id(), get_the_ID() ) ) { ?>
+		<?php if ( can_access_book_posts() ) { ?>
 
 			<div id="post-title">
 				<h2><?php the_field('book_title'); ?></h2>
@@ -138,7 +138,19 @@
 
 			</div>
 
-		<?php } ?>
+		<?php } else { ?>
+		<!-- There is some issue with them styling and the following div is hidden under the menu without the top margin -->
+		<div style="margin-top: 150px">
+			<p>
+				Enjoy unlimited digital access to the archives of GUP Magazine, with new material specifically crafted for a better online experience.
+			</p>
+			
+			<p>
+				<a href="https://gupmagazine.memberful.com/checkout?plan=47422">Premium plan</a>
+			</p>
+			
+		</div>		
+	<?php } ?>
 
 </div>
 

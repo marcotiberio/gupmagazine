@@ -278,4 +278,38 @@ $subRole->add_cap( 'read_private_pages' );
 
 add_action( 'init', 'ws_private_posts_subscribers' );
 
+
+// Memberful function
+
+function has_any_memberful_plan() {
+	if ( function_exists( "memberful_wp_user_plans_subscribed_to" ) ) {
+	  $plans = memberful_wp_user_plans_subscribed_to( wp_get_current_user()->ID );
+	  return !empty( $plans );
+	}
+	return false;
+  }
+  
+  function can_access_book_posts() {		
+	  if ( !in_category( 'archive' ) ) {
+		  return true;
+	  }
+	  
+	  // is admin?
+	  if ( current_user_can( 'publish_post' ) ) {
+		  return true;
+	  }
+	  
+	  if ( has_any_memberful_plan() ) {
+		  return true;
+	  }
+	  
+	  return false;
+  }
+  
+  ?>
+
+
+
 ?>
+
+
