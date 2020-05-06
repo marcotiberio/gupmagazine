@@ -40,7 +40,7 @@
 							<h6 class="post-date"><?php the_time('m/j/y') ?></h5>
 						</header>
 						<div class="entry-content">
-							<?php the_excerpt(); ?>
+							<?php echo get_excerpt(); ?>
 							<a href="<?php the_permalink(); ?>">Read More</a>
 						</div>
 						</div>
