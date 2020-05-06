@@ -240,6 +240,14 @@ function html5_search_form( $form ) {
 
 add_filter( 'get_search_form', 'html5_search_form' );
 
+
+// Filter except length to 75 words.
+// tn custom excerpt length
+function tn_custom_excerpt_length( $length ) {
+	return 75;
+	}
+	add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 999 );
+
 /** 
  * Add image sizes. 
  */
@@ -261,6 +269,7 @@ function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
 	return $html;
 	}
 	add_filter( 'post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3 );
+
 
 
 
