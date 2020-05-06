@@ -308,8 +308,3 @@ function has_any_memberful_plan() {
   
   ?>
 
-
-
-?>
-
-
