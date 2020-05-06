@@ -266,17 +266,17 @@ function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
 
 
 
-function whitespider_private_posts_subscribers(){
+// function whitespider_private_posts_subscribers(){
 
- $subRole = get_role( 'subscriber' );
+ //$subRole = get_role( 'subscriber' );
 
- $subRole->add_cap( 'read_private_posts' );
+ //$subRole->add_cap( 'read_private_posts' );
 
-$subRole->add_cap( 'read_private_pages' );
+ //$subRole->add_cap( 'read_private_pages' );
 
-}
+//}
 
-add_action( 'init', 'ws_private_posts_subscribers' );
+//add_action( 'init', 'ws_private_posts_subscribers' );
 
 
 // Memberful function
