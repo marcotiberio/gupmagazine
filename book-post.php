@@ -143,8 +143,7 @@
 		<div class="buy--membership">
 			<div id="text">
 				<h1>GUP Magazine</h1>
-				<h2>Enjoy unlimited digital access to the archives of GUP Magazine</h2> 
-				<h3>Your Guide to unique photography</h3>
+				<h2>Enjoy unlimited digital access to the archives of GUP Magazine.<br>Your Guide to unique photography</h2>
 				<h3>ARTICLES | INTERVIEWS | PORTFOLIOS</h3>
 				<h2>2€/WEEK</h2>
 				<h4>Billed as €45 once a year.<br>You can cancel anytime</h4>
