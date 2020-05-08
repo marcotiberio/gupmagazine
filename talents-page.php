@@ -16,7 +16,7 @@
                 while ( have_rows('talents_slides') ) : the_row();
 
                     // display a sub field value
-                    the_sub_field('talents_slides');
+                    the_sub_field('images');
 
                 endwhile;
 
