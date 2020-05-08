@@ -36,7 +36,7 @@
                     <div class="cover">
                         <?php 
                         $image = get_field('gupnew_cover');
-                        $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+                        $size = 'full'; // (thumbnail, medium, large, full or custom size)
                         if( $image ) {
                             echo wp_get_attachment_image( $image, $size );
                         } ?>
@@ -52,7 +52,7 @@
                     <div class="cover">
                         <?php 
                         $image = get_field('fresheyes_cover');
-                        $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+                        $size = 'full'; // (thumbnail, medium, large, full or custom size)
                         if( $image ) {
                             echo wp_get_attachment_image( $image, $size );
                         } ?>
