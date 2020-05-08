@@ -2023,6 +2023,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+.buy--membership .text {
+	background-color: white;
+    padding: 0 3%;
+}
+
 
 /*--------------------------------------------------------------
 ## Error 404 Page
