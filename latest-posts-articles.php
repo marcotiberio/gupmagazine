@@ -29,7 +29,7 @@
 						<div>
 						<?php
 						if ( has_post_thumbnail() ) :
-							the_post_thumbnail( 'thumbnail-list' );
+							the_post_thumbnail( 'thumbnail-list-medium' );
 						endif;
 						?>
 						</div>
