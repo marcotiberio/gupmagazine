@@ -9,7 +9,12 @@
             
 
         <section class="talents-slider">
-            <?php the_field('talents_slides'); ?>
+            <?php
+            if( have_rows('talents_slides') ):
+            $i = 1;
+            $row_count = count(get_field('talents_slides'));
+            while ( have_rows('talents_slides') ) : the_row();
+            ?>
         </section>
 
 			<main class="container">
