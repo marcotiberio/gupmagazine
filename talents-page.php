@@ -7,26 +7,29 @@
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
             
-        <?php
 
-            // check if the repeater field has rows of data
-            if( have_rows('talents_slides') ):
+        <section class="talents-slider">
+            <?php
 
-                // loop through the rows of data
-                while ( have_rows('talents_slides') ) : the_row();
+                // check if the repeater field has rows of data
+                if( have_rows('talents_slides') ):
 
-                    // display a sub field value
-                    the_sub_field('images');
+                    // loop through the rows of data
+                    while ( have_rows('talents_slides') ) : the_row();
 
-                endwhile;
+                        // display a sub field value
+                        the_sub_field('images');
 
-            else :
+                    endwhile;
 
-                // no rows found
+                else :
 
-            endif;
+                    // no rows found
 
-        ?>
+                endif;
+
+            ?>
+        </section>
 
 			<main class="container">
                 <div class="gup-new">
