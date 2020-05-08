@@ -2028,7 +2028,10 @@ body {
     padding: 0 3%;
 }
 
-.buy--membership #text h2 {
+.buy--membership #text h1,
+.buy--membership #text h2,
+.buy--membership #text h3,
+.buy--membership #text h4 {
 	text-transform: none;
 }
 
@@ -2038,8 +2041,15 @@ body {
 	border-radius: none;
 }
 
-.buy--membership #text button a {
+.buy--membership #text button a h3 {
 	color: white;
+	text-decoration: none;
+	transition: 0.3 ease-in-out;
+}
+
+.buy--membership #text button a h3:hover {
+	color: black;
+	text-decoration: none;
 	transition: 0.3 ease-in-out;
 }
 

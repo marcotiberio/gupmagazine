@@ -147,12 +147,12 @@
 				<h3>Your Guide to unique photography</h3>
 				<h3>ARTICLES | INTERVIEWS | PORTFOLIOS</h3>
 				<h2>2€/WEEK</h2>
-				<h4>Billed as €45 once a year.</h4>
-				<h5>You can cancel anytime</h5>
+				<h4>Billed as €45 once a year.<br>You can cancel anytime</h4>
 				<button><a href="https://gupmagazine.memberful.com/checkout?plan=47422"><h3>Subscribe now</h3></a></button>
 				<br><br>
 				<p>
 				<u>No commitment required.</u>
+				<br>
 				Voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst. 
 				Voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst. 
 				Voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst.
