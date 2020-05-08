@@ -2095,16 +2095,32 @@ body {
 	display: block;
 }
 
-.page-template-talents-page .container .gup-new{
+.page-template-talents-page .container .gup-new {
 	display: grid;
     grid-template-columns: 1fr 3fr;
 	grid-template-rows: 1fr;
 }
 
-.page-template-talents-page .container .fresh-eyes{
+.page-template-talents-page .container .gup-new .cover{
+	padding: 10%;
+}
+
+.page-template-talents-page .container .gup-new .text{
+	padding: 2%;
+}
+
+.page-template-talents-page .container .fresh-eyes {
 	display: grid;
     grid-template-columns: 3fr 1fr;
 	grid-template-rows: 1fr;
+}
+
+.page-template-talents-page .container .fresh-eyes .cover{
+	padding: 10%;
+}
+
+.page-template-talents-page .container .fresh-eyes .text{
+	padding: 2%;
 }
 
 
