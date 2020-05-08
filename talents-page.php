@@ -13,8 +13,8 @@
         </section>
 
 			<main class="container">
+                <h3>GUP NEW</h3>
                 <div class="gup-new">
-                    <h3>GUP NEW</h3>
                     <div class="cover">
                         <?php 
                         $image = get_field('gupnew_cover');
@@ -27,8 +27,8 @@
                         <p><?php the_field('gupnew_text'); ?></p>
                     </div>
                 </div>
+                <h3>FRESH EYES</h3>
                 <div class="fresh-eyes">
-                    <h3>FRESH EYES</h3>
                     <div class="text">
                         <p><?php the_field('fresheyes_text'); ?></p>
                     </div>
