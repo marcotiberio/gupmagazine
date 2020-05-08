@@ -33,7 +33,7 @@
 
 			<main class="container">
                 <div class="gup-new">
-                    <div class="img">
+                    <div class="cover">
                         <?php 
                         $image = get_field('gupnew_cover');
                         $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
@@ -49,7 +49,7 @@
                     <div class="text">
                         <p><?php the_field('fresheyes_text'); ?></p>
                     </div>
-                    <div class="img">
+                    <div class="cover">
                         <?php 
                         $image = get_field('fresheyes_cover');
                         $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
