@@ -2077,13 +2077,33 @@ body {
 ## Talents Page
 --------------------------------------------------------------*/
 
-.page-template-default .entry-content {
+.page-template-talents-page .entry-content {
 	margin: -1.5em 0 0;
 }
 
-.page-template-default .entry-content .slider {
+.page-template-talents-page .entry-content .slider {
 	margin-top: 0;
 }
+
+.page-template-talents-page .container {
+	display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.page-template-talents-page .container .gup-new{
+	display: grid;
+    grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr;
+}
+
+.page-template-talents-page .container .fresh-eyes{
+	display: grid;
+    grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+
 
 /*--------------------------------------------------------------
 ## Error 404 Page
