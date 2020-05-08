@@ -41,7 +41,7 @@
         ?>
         
 			<main class="container">
-                <h3>GUP NEW</h3>
+                <h2>GUP NEW</h2>
                 <div class="gup-new">
                     <div class="cover">
                         <?php 
@@ -55,7 +55,7 @@
                         <p><?php the_field('gupnew_text'); ?></p>
                     </div>
                 </div>
-                <h3>FRESH EYES</h3>
+                <h2>FRESH EYES</h2>
                 <div class="fresh-eyes">
                     <div class="text">
                         <p><?php the_field('fresheyes_text'); ?></p>
