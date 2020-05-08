@@ -2028,6 +2028,12 @@ body {
     padding: 0 3%;
 }
 
+.buy--membership #text button {
+	background-color: #555;
+	padding: 0 3%;
+	border-radius: none;
+}
+
 
 /*--------------------------------------------------------------
 ## Error 404 Page
