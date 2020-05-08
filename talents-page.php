@@ -4,10 +4,10 @@
 
 <?php get_header(); ?>
 
-<div id="primary--page-main" class="content-area--page-main">
+	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
 
-		<?php
+        <?php
 		if ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) :
@@ -38,21 +38,8 @@
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif;
-		?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-            
-
-        <section class="talents-slider">
-            <?php
-            if( have_rows('talents_slides') ):
-            $i = 1;
-            $row_count = count(get_field('talents_slides'));
-            while ( have_rows('talents_slides') ) : the_row();
-            ?>
-        </section>
-
+        ?>
+        
 			<main class="container">
                 <h3>GUP NEW</h3>
                 <div class="gup-new">
@@ -84,6 +71,9 @@
                 </div>
             </main>
 		
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
 
 <?php
 get_sidebar();
