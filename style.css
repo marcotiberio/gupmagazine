@@ -2030,7 +2030,6 @@ body {
 
 .buy--membership #text h1,
 .buy--membership #text h2,
-.buy--membership #text h3,
 .buy--membership #text h4 {
 	text-transform: none;
 }
@@ -2039,6 +2038,10 @@ body {
 	background-color: #555;
 	padding: 0 3%;
 	border-radius: none;
+}
+
+.buy--membership #text button:hover {
+	background-color: lightgray;
 }
 
 .buy--membership #text button a h3 {
@@ -2051,6 +2054,22 @@ body {
 	color: black;
 	text-decoration: none;
 	transition: 0.3 ease-in-out;
+}
+
+@media only screen and (max-width: 900px) {
+	
+	.buy--membership {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		padding: 3% 10%;
+		height: 90vh;
+		
+		background-image: url(assets/img/membership_bg.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 }
 
 
