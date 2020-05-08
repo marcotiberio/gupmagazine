@@ -2077,6 +2077,10 @@ body {
 ## Talents Page
 --------------------------------------------------------------*/
 
+.page-template-talents-page .content-area--page-main {
+	padding: 0 !important;
+}
+
 .page-template-talents-page .entry-content {
 	margin: -1.5em 0 0;
 }
