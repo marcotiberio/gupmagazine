@@ -263,7 +263,13 @@ function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
 	add_filter( 'post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3 );
 
 
-	
+
+// Filter except length to 35 words.
+// tn custom excerpt length
+function tn_custom_excerpt_length( $length ) {
+	return 35;
+	}
+	add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 999 );
 
 
 
