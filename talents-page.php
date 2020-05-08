@@ -9,26 +9,7 @@
             
 
         <section class="talents-slider">
-            <?php
-
-                // check if the repeater field has rows of data
-                if( have_rows('talents_slides') ):
-
-                    // loop through the rows of data
-                    while ( have_rows('talents_slides') ) : the_row();
-
-                        // display a sub field value
-                        the_sub_field('images');
-
-                    endwhile;
-
-                else :
-
-                    // no rows found
-
-                endif;
-
-            ?>
+            <?php the_field('talents_slides'); ?>
         </section>
 
 			<main class="container">
