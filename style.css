@@ -2085,11 +2085,11 @@ body {
 	margin-top: 0;
 }
 
-.page-template-talents-page .container {
+/* .page-template-talents-page .container {
 	display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-}
+} */
 
 .page-template-talents-page .talents-slider {
 	display: block;
