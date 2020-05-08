@@ -149,7 +149,7 @@
 				<h2>2€/WEEK</h2>
 				<h4>Billed as €45 once a year.</h4>
 				<h5>You can cancel anytime</h5>
-				<button><a href="https://gupmagazine.memberful.com/checkout?plan=47422">Subscribe now</a></button>
+				<button><a href="https://gupmagazine.memberful.com/checkout?plan=47422"><h3>Subscribe now</h3></a></button>
 				<br><br>
 				<p>
 				<u>No commitment required.</u>

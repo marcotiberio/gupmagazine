@@ -2028,10 +2028,19 @@ body {
     padding: 0 3%;
 }
 
+.buy--membership #text h2 {
+	text-transform: none;
+}
+
 .buy--membership #text button {
 	background-color: #555;
 	padding: 0 3%;
 	border-radius: none;
+}
+
+.buy--membership #text button a {
+	color: white;
+	transition: 0.3 ease-in-out;
 }
 
 
