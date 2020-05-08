@@ -142,12 +142,22 @@
 		<!-- There is some issue with them styling and the following div is hidden under the menu without the top margin -->
 		<div class="buy--membership">
 			<div id="text">
+				<h1>GUP Magazine</h1>
 				<h2>Enjoy unlimited digital access to the archives of GUP Magazine</h2> 
-				<h3>With new material specifically crafted for a better online experience.</h3>
+				<h3>Your Guide to unique photography</h3>
 				<br>
-				<h2>45€/year</h2>
-				<p>You can cancel anytime</p>
-				<a href="https://gupmagazine.memberful.com/checkout?plan=47422">Subscribe now</a>
+				<h3>ARTICLES | INTERVIEWS | PORTFOLIOS</h3>
+				<h2>2€/WEEK</h2>
+				<h4>Billed as €45 once a year.</h4>
+				<h5>You can cancel anytime</h5>
+				<button><a href="https://gupmagazine.memberful.com/checkout?plan=47422">Subscribe now</a></button>
+				<br><br><br>
+				<p>
+				<u>No commitment required.</u>
+				Voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst. 
+				Voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst. 
+				Voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst voorbeeld tekst.
+				</p>
 			</div>
 			<div></div>
 		</div>		
