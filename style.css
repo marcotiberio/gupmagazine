@@ -2077,8 +2077,8 @@ body {
 ## Talents Page
 --------------------------------------------------------------*/
 
-.page-template-default .slider {
-	margin-top: 0;
+.page-template-default .entry-content {
+	margin: -1.5em 0 0;
 }
 
 /*--------------------------------------------------------------
