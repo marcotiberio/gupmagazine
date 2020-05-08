@@ -2089,6 +2089,10 @@ body {
 	margin-top: 0;
 }
 
+.page-template-talents-page .container {
+	padding: 0 10%;
+}
+
 .page-template-talents-page .container h3 {
 	text-align: center;
 }
