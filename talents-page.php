@@ -6,7 +6,28 @@
 
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
-			
+            
+        <?php
+
+            // check if the repeater field has rows of data
+            if( have_rows('talents_slides') ):
+
+                // loop through the rows of data
+                while ( have_rows('talents_slides') ) : the_row();
+
+                    // display a sub field value
+                    the_sub_field('talents_slides');
+
+                endwhile;
+
+            else :
+
+                // no rows found
+
+            endif;
+
+        ?>
+
 			<main class="container">
                 <div class="gup-new">
                     <div class="img">
