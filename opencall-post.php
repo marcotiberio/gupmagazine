@@ -74,9 +74,12 @@
                     <?php endif; ?>
                 </div>
                 <div>
-                    <?php if( get_field('opencall_credits_social-media') ): ?>
-                        <h4>Open Call Social Media</h4>
-                        <p><?php the_field('opencall_credits_social-media'); ?></h4></p>
+                    <h4>Social Media</h4>
+                    <?php if( get_field('facebook') ): ?>
+                        <a href="<?php echo the_field('facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
+                    <?php endif; ?>
+                    <?php if( get_field('instagram') ): ?>
+                        <a href="<?php echo the_field('instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
                     <?php endif; ?>
                 </div>
             </div>
