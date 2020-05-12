@@ -49,43 +49,43 @@
 
 		<div id="post-content">
 			<div class="post-credits" id="toggle-credits-mobile">
-            <div>
-                <?php if( get_field('opencall_credits_organisation') ): ?>
-                    <h4>Organisation</h4>
-                    <p><?php the_field('opencall_credits_organisation'); ?></h4></p>
-                <?php endif; ?>
+                <div>
+                    <?php if( get_field('opencall_credits_organisation') ): ?>
+                        <h4>Organisation</h4>
+                        <p><?php the_field('opencall_credits_organisation'); ?></h4></p>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <?php if( get_field('opencall_credits_deadline') ): ?>
+                        <h4>Deadline</h4>
+                        <p><?php the_field('opencall_credits_deadline'); ?></h4></p>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <?php 
+                    $link = get_field('opencall_credits_website');
+                    if( $link ): 
+                        $link_url = $link['url'];
+                        $link_title = $link['title'];
+                        $link_target = $link['target'] ? $link['target'] : '_blank';
+                        ?>
+                        <h4>Website</h4>
+                        <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <?php if( get_field('opencall_credits_social-media') ): ?>
+                        <h4>Open Call Social Media</h4>
+                        <p><?php the_field('opencall_credits_social-media'); ?></h4></p>
+                    <?php endif; ?>
+                </div>
             </div>
-            <div>
-                <?php if( get_field('opencall_credits_deadline') ): ?>
-                    <h4>Deadline</h4>
-                    <p><?php the_field('opencall_credits_deadline'); ?></h4></p>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php 
-                $link = get_field('opencall_credits_website');
-                if( $link ): 
-                    $link_url = $link['url'];
-                    $link_title = $link['title'];
-                    $link_target = $link['target'] ? $link['target'] : '_blank';
-                    ?>
-                    <h4>Website</h4>
-                    <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php if( get_field('opencall_credits_social-media') ): ?>
-                    <h4>Open Call Social Media</h4>
-                    <p><?php the_field('opencall_credits_social-media'); ?></h4></p>
-                <?php endif; ?>
-            </div>
-        </div>
 
-        <div class="post-text">
-            <p><?php the_field('opencall_text'); ?></p>
-        </div>
+            <div class="post-text">
+                <p><?php the_field('opencall_text'); ?></p>
+            </div>
 		
-    </div>
+        </div>
 
     <?php } else { ?>
 		<!-- There is some issue with them styling and the following div is hidden under the menu without the top margin -->
