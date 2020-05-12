@@ -62,9 +62,15 @@
                 <?php endif; ?>
             </div>
             <div>
-                <?php if( get_field('opencall_credits_website') ): ?>
-                    <h4>Open Call Website</h4>
-                    <p><?php the_field('opencall_credits_website'); ?></h4></p>
+                <?php 
+                $link = get_field('opencall_credits_website');
+                if( $link ): 
+                    $link_url = $link['url'];
+                    $link_title = $link['title'];
+                    $link_target = $link['target'] ? $link['target'] : '_blank';
+                    ?>
+                    <h4>Artist Website</h4>
+                    <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
                 <?php endif; ?>
             </div>
             <div>
