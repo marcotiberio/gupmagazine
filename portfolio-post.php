@@ -50,47 +50,47 @@
 
 		<div id="post-content">
 			<div class="post-credits" id="toggle-credits-mobile">
-            <div>
-                <?php if( get_field('portfolio_credits_author') ): ?>
-                    <h4>GUP Author</h4>
-                    <p><?php the_field('portfolio_credits_author'); ?></h4></p>
-                <?php endif; ?>
+                <div>
+                    <?php if( get_field('portfolio_credits_author') ): ?>
+                        <h4>GUP Author</h4>
+                        <p><?php the_field('portfolio_credits_author'); ?></h4></p>
+                    <?php endif; ?>
+                </div>
+                <hr style="margin-right:40%;">
+                <div>
+                    <?php if( get_field('portfolio_credits_artist') ): ?>
+                        <h4>Artist</h4>
+                        <p><?php the_field('portfolio_credits_artist'); ?></h4></p>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <?php 
+                    $link = get_field('portfolio_credits_artist-website');
+                    if( $link ): 
+                        $link_url = $link['url'];
+                        $link_title = $link['title'];
+                        $link_target = $link['target'] ? $link['target'] : '_blank';
+                        ?>
+                        <h4>Artist Website</h4>
+                        <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <h4>Artist Social Media</h4>
+                    <?php if( get_field('facebook') ): ?>
+                        <a href="<?php echo the_field('facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
+                    <?php endif; ?>
+                    <?php if( get_field('instagram') ): ?>
+                        <a href="<?php echo the_field('instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
+                    <?php endif; ?>
+                </div>
             </div>
-            <hr style="margin-right:40%;">
-            <div>
-                <?php if( get_field('portfolio_credits_artist') ): ?>
-                    <h4>Artist</h4>
-                    <p><?php the_field('portfolio_credits_artist'); ?></h4></p>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php 
-                $link = get_field('portfolio_credits_artist-website');
-                if( $link ): 
-                    $link_url = $link['url'];
-                    $link_title = $link['title'];
-                    $link_target = $link['target'] ? $link['target'] : '_blank';
-                    ?>
-                    <h4>Artist Website</h4>
-                    <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-                <?php endif; ?>
-            </div>
-            <div>
-                <h4>Artist Social Media</h4>
-                <?php if( get_field('facebook') ): ?>
-                    <a href="<?php echo the_field('facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
-                <?php endif; ?>
-                <?php if( get_field('instagram') ): ?>
-                    <a href="<?php echo the_field('instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
-                <?php endif; ?>
-            </div>
-        </div>
 
-        <div class="post-text">
-            <p><?php the_field('portfolio_text'); ?></p>
-        </div>
+            <div class="post-text">
+                <p><?php the_field('portfolio_text'); ?></p>
+            </div>
 		
-    </div>
+        </div>
 
     <?php } else { ?>
 		<!-- There is some issue with them styling and the following div is hidden under the menu without the top margin -->
