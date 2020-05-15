@@ -1674,7 +1674,7 @@ body {
 	}
 
 
-	.entry-title {
+	.page-template-default .entry-title {
 		display: block;
 		text-align: left;
 		margin-bottom: 50px;
