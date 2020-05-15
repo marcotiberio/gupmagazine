@@ -1667,6 +1667,22 @@ body {
 	text-decoration: underline;
 }
 
+@media only screen and (max-width: 900px) {
+	
+	.page-template-default .page-template-default {
+		margin-top: 100%;
+	}
+
+
+	.entry-title {
+		display: block;
+		text-align: left;
+		margin-bottom: 50px;
+		margin-left: 5%;
+	}
+
+}
+
 /*--------------------------------------------------------------
 ## Custom Pages
 --------------------------------------------------------------*/
