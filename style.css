@@ -1067,7 +1067,7 @@ body {
 	height: 70px;
 	
 	display: grid;
-    grid-template-columns: 6fr 6fr 0.5fr 0.5fr;
+    grid-template-columns: 9fr 7fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -1088,7 +1088,7 @@ body {
 .nav-custom {
 	width: 100%;
 	padding-top: 18px;
-	padding-left: 30%;
+	padding-left: 0;
 }
 
 #primary-menu .sub-menu {
@@ -1232,7 +1232,7 @@ body {
 
 	.site-header {
 		display: grid;
-		grid-template-columns: 3fr 2fr;
+		grid-template-columns: 5fr 1fr;
 		grid-template-rows: 1fr;
 		grid-column-gap: 0px;
 		grid-row-gap: 0px;
@@ -1244,7 +1244,7 @@ body {
     	background: transparent;
     	color: black;
     	font-size: 28px;
-		padding: .6em 1em .4em;
+		padding: 0;
 	}
 
 	#primary-menu {
@@ -1287,11 +1287,11 @@ body {
 	}
 
 	.menu-overlay-menu-container #overlay-menu .menu-item a {
-		font-size: 30px;
+		font-size: 30px !important;
 	}
 
 	.menu-overlay-menu-container #overlay-menu .menu-item .sub-menu .menu-item a {
-		font-size: 24px;
+		font-size: 24px !important;
 	}
 
 	#column--hidden_mobile {
