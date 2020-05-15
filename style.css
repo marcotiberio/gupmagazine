@@ -1669,8 +1669,8 @@ body {
 
 @media only screen and (max-width: 900px) {
 	
-	.page-template-default .page-template-default {
-		margin-top: 100px;
+	.page-template-default .content-area .site-main {
+		margin-top: 180px;
 	}
 
 
