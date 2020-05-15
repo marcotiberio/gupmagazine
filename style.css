@@ -1271,7 +1271,7 @@ body {
 	.menuOverlay--inside {
 		display: grid;
     	grid-template-columns: 1fr;
-    	grid-template-rows: repeat(4, 1fr);
+    	grid-template-rows: 1fr;
     	padding: 6% 10%;
 	}
 
@@ -1283,7 +1283,15 @@ body {
     	padding: 0;
     	margin: 0 !important;
 		list-style: none;
-		text-align: center;
+		text-align: left;
+	}
+
+	.menu-overlay-menu-container #overlay-menu .menu-item a {
+		font-size: 30px;
+	}
+
+	.menu-overlay-menu-container #overlay-menu .menu-item .sub-menu .menu-item a {
+		font-size: 24px;
 	}
 
 	#column--hidden_mobile {
