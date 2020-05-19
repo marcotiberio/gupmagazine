@@ -74,9 +74,12 @@
                 <?php endif; ?>
 					</div>
 					<div>
-						<?php if( get_field('book_credits_artist-social-media') ): ?>
 						<h4>Artist Social Media</h4>
-						<p><?php the_field('book_credits_artist-social-media'); ?></p>
+						<?php if( get_field('facebook') ): ?>
+							<a href="<?php echo the_field('facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
+						<?php endif; ?>
+						<?php if( get_field('instagram') ): ?>
+							<a href="<?php echo the_field('instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
 						<?php endif; ?>
 					</div>
 					<hr style="margin-right:40%;">
@@ -120,14 +123,17 @@
 						$link_title = $link['title'];
 						$link_target = $link['target'] ? $link['target'] : '_blank';
 						?>
-						<h4>Artist Website</h4>
+						<h4>Publisher Website</h4>
 						<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 					<?php endif; ?>
 					</div>
 					<div>
-						<?php if( get_field('book_credits_publisher-social-media') ): ?>
 						<h4>Publisher Social Media</h4>
-						<p><?php the_field('book_credits_publisher-social-media'); ?></p>
+						<?php if( get_field('facebook') ): ?>
+							<a href="<?php echo the_field('facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
+						<?php endif; ?>
+						<?php if( get_field('instagram') ): ?>
+							<a href="<?php echo the_field('instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
 						<?php endif; ?>
 					</div>
 				</div>
