@@ -75,11 +75,11 @@
 					</div>
 					<div>
 						<h4>Artist Social Media</h4>
-						<?php if( get_field('facebook') ): ?>
-							<a href="<?php echo the_field('facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
+						<?php if( get_field('artist_facebook') ): ?>
+							<a href="<?php echo the_field('artist_facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
 						<?php endif; ?>
-						<?php if( get_field('instagram') ): ?>
-							<a href="<?php echo the_field('instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
+						<?php if( get_field('artist_instagram') ): ?>
+							<a href="<?php echo the_field('artist_instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
 						<?php endif; ?>
 					</div>
 					<hr style="margin-right:40%;">
@@ -129,11 +129,11 @@
 					</div>
 					<div>
 						<h4>Publisher Social Media</h4>
-						<?php if( get_field('facebook') ): ?>
-							<a href="<?php echo the_field('facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
+						<?php if( get_field('publisher_facebook') ): ?>
+							<a href="<?php echo the_field('publisher_facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
 						<?php endif; ?>
-						<?php if( get_field('instagram') ): ?>
-							<a href="<?php echo the_field('instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
+						<?php if( get_field('publisher_instagram') ): ?>
+							<a href="<?php echo the_field('publisher_instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
 						<?php endif; ?>
 					</div>
 				</div>
