@@ -245,12 +245,12 @@ add_filter( 'get_search_form', 'html5_search_form' );
  */
 
 add_image_size( 'medium_large', '768', '0', true );
-add_image_size( '1536x1536', '1536', '1536', false );
+add_image_size( 'xl_post', '1536', '1536', false );
 add_image_size( '2048x2048', '2048', '2048', false );
 add_image_size( 'medium_large', '768', '0', true );
 add_image_size( 'custom', '1200', '600', true );
 add_image_size( 'thumbnail-list', '460', '280', true );
-add_image_size( 'thumbnail-list-related', '600', '500', true );
+add_image_size( 'thumbnail-list-related', '600', '400', true );
 
 /** 
  * Add link to post featured images. 
