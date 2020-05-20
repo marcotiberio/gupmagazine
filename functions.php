@@ -252,13 +252,6 @@ add_image_size( 'custom', '1200', '600', true );
 add_image_size( 'thumbnail-list', '460', '280', true );
 add_image_size( 'thumbnail-list-related', '600', '400', true );
 
-// Filter except length to 35 words.
-// tn custom excerpt length
-function tn_custom_excerpt_length( $length ) {
-	return 35;
-	}
-	add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 999 );
-
 /** 
  * Add link to post featured images. 
  */
@@ -322,5 +315,5 @@ function has_any_memberful_plan() {
   
   ?>
 
-
+  
 
