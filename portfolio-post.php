@@ -132,7 +132,7 @@ while( $my_query->have_posts() ) {
 $my_query->the_post();?>
 
     <div class="relatedthumb">
-        <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'Custom' ); ?></a>
+        <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'custom' ); ?></a>
         <div class="relatedcontent">
             <h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
             <p><?php the_excerpt(); ?></p>
