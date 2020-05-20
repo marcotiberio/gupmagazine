@@ -264,15 +264,6 @@ function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
 
 
 
-// Filter except length to 35 words.
-// tn custom excerpt length
-function tn_custom_excerpt_length( $length ) {
-	return 35;
-	}
-	add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 999 );
-
-
-
 // function whitespider_private_posts_subscribers(){
 
  //$subRole = get_role( 'subscriber' );
