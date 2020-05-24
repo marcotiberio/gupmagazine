@@ -263,6 +263,18 @@ function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
 	add_filter( 'post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3 );
 
 
+// Changing excerpt length
+function new_excerpt_length($length) {
+	return 100;
+	}
+	add_filter('excerpt_length', 'new_excerpt_length');
+	 
+// Changing excerpt more
+function new_excerpt_more($more) {
+	return '...';
+	}
+	add_filter('excerpt_more', 'new_excerpt_more');
+
 
 // function whitespider_private_posts_subscribers(){
 
