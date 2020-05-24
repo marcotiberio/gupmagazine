@@ -1793,7 +1793,7 @@ body {
 
 	#post-credits_mobile-title {
 		display: block;
-		text-align: center;
+		text-align: left;
 		text-decoration: underline;
 	}
 
@@ -1802,11 +1802,11 @@ body {
 	}
 
 	.post-credits div h4 {
-		text-align: center;
+		text-align: left;
 	}
 
 	.post-credits div p {
-		text-align: center;
+		text-align: left;
 	}
 
 	.post-credits div img {
