@@ -1802,11 +1802,11 @@ body {
 	}
 
 	.post-credits div h4 {
-		text-align: left;
+		text-align: center;
 	}
 
 	.post-credits div p {
-		text-align: left;
+		text-align: center;
 	}
 
 	.post-credits div img {
@@ -1815,6 +1815,10 @@ body {
 
 	.post-credits hr {
 		display: none;
+	}
+
+	.toggle-credits-mobile div {
+		text-align: center;
 	}
 }
 
