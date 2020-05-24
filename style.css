@@ -1855,6 +1855,10 @@ body {
 	margin: 0;
 }
 
+.latestpost--custom .entry-header h5 {
+	margin-top: 10px;
+}
+
 .latestpost--custom .entry-header .post-date {
 	margin: 0;
 }
