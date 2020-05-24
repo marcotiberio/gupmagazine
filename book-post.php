@@ -56,31 +56,16 @@
 					</div>
 					<hr style="margin-right:40%;">
 					<div>
-						<?php if( get_field('book_credits_artist') ): ?>
-						<h4>Artist</h4>
-						<p><?php the_field('book_credits_artist'); ?></p>
-						<?php endif; ?>
-					</div>
-					<div>
 						<?php 
-                		$link = get_field('book_credits_artist-website');
+                		$link = get_field('book_credits_artist');
                 		if( $link ): 
 						$link_url = $link['url'];
 						$link_title = $link['title'];
 						$link_target = $link['target'] ? $link['target'] : '_blank';
 						?>
-						<h4>Artist Website</h4>
+						<h4>Artist</h4>
 						<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-                <?php endif; ?>
-					</div>
-					<div>
-						<h4>Artist Social Media</h4>
-						<?php if( get_field('artist_facebook') ): ?>
-							<a href="<?php echo the_field('artist_facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
-						<?php endif; ?>
-						<?php if( get_field('artist_instagram') ): ?>
-							<a href="<?php echo the_field('artist_instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
-						<?php endif; ?>
+                	<?php endif; ?>
 					</div>
 					<hr style="margin-right:40%;">
 					<div>
@@ -88,20 +73,26 @@
 						<h4>Title</h4>
 						<p><?php the_field('book_credits_book-title'); ?></p>
 						<?php if( get_field('book_credits_book-cover') ): ?>
-						<?php 
+							<?php 
 								$image = get_field('book_credits_book-cover');
 								$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
 								if( $image ) {
 									echo wp_get_attachment_image( $image, $size );
 								} ?>
-						<?php endif; ?>
+							<?php endif; ?>
 						<?php endif; ?>
 					</div>
 					<div>
-						<?php if( get_field('book_credits_book-publisher') ): ?>
+						<?php 
+						$link = get_field('book_credits_publisher');
+						if( $link ): 
+						$link_url = $link['url'];
+						$link_title = $link['title'];
+						$link_target = $link['target'] ? $link['target'] : '_blank';
+						?>
 						<h4>Publisher</h4>
-						<p><?php the_field('book_credits_book-publisher'); ?></p>
-						<?php endif; ?>
+						<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+					<?php endif; ?>
 					</div>
 					<div>
 						<?php if( get_field('book_credits_book-format') ): ?>
@@ -113,27 +104,6 @@
 						<?php if( get_field('book_credits_book-price') ): ?>
 						<h4>Price</h4>
 						<p><?php the_field('book_credits_book-price'); ?></p>
-						<?php endif; ?>
-					</div>
-					<div>
-						<?php 
-						$link = get_field('book_credits_publisher-website');
-						if( $link ): 
-						$link_url = $link['url'];
-						$link_title = $link['title'];
-						$link_target = $link['target'] ? $link['target'] : '_blank';
-						?>
-						<h4>Publisher Website</h4>
-						<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-					<?php endif; ?>
-					</div>
-					<div>
-						<h4>Publisher Social Media</h4>
-						<?php if( get_field('publisher_facebook') ): ?>
-							<a href="<?php echo the_field('publisher_facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
-						<?php endif; ?>
-						<?php if( get_field('publisher_instagram') ): ?>
-							<a href="<?php echo the_field('publisher_instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
 						<?php endif; ?>
 					</div>
 				</div>
