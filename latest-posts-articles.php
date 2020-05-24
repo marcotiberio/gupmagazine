@@ -42,7 +42,7 @@
 							</h5>
 						</header>
 						<div class="entry-content">
-							<?php echo substr($post->the_content, 0, 80); // displays first 80 chars of post ?>
+							<?php the_excerpt(); ?>
 							<a href="<?php the_permalink(); ?>">Read More</a>
 						</div>
 						</div>
