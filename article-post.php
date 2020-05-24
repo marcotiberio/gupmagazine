@@ -58,7 +58,7 @@
             <hr style="margin-right:40%;">
             <div>
                 <?php 
-                $link = get_field('article_credits_artist-website');
+                $link = get_field('article_credits_artist');
                 if( $link ): 
                     $link_url = $link['url'];
                     $link_title = $link['title'];
