@@ -1648,7 +1648,7 @@ body {
 }
 
 .footer-custom-col4 a {
-	font-size: 14px;
+	font-size: 14px !important;
 }
 
 .footer-custom-col4 a:hover {
