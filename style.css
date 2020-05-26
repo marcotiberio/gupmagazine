@@ -1269,7 +1269,7 @@ body {
 	
 	#menuOverlay {
 		height: 5000px !important;
-		overflow: scroll !important;
+		overflow: hidden !important;
 	}
 
 	.menuOverlay--inside {
@@ -1278,7 +1278,7 @@ body {
     	grid-template-rows: 1fr;
 		padding: 10%;
 		height: 100%;
-		overflow: scroll !important;
+		overflow: hidden !important;
 	}
 
 	#overlay-menu {
