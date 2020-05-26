@@ -45,7 +45,7 @@
 						<div class="sg-response" id="sg-response"></div>
 						<div class="newsletterInput">
 							<input id="email" type="email" name="email" placeholder="you@example.com" required>
-							<input type="submit" id="sg-submit-btn" value=“Subscribe”>
+							<input type="submit" id="sg-submit-btn" value=SUBRSCRIBE>
 						</div>
 					</form>
 				</div>
