@@ -37,7 +37,7 @@
 			</div>
 			<div class="footer-custom-column" id="footer-custom-col3">
 			<h4>NEWSLETTER</h4>
-			<p>Stay updatet on our latest publications, events, articles and open calls</p>
+			<p>Stay updadet on our latest publications, events, articles and open calls</p>
 				<!-- NEWSLETTER -->
 				<script type="text/javascript" src="//sgwidget.leaderapps.co/js/sendgrid-widget.js"></script>
 				<div id="sendgrid-subscription-widget" class="sendgrid-subscription-widget" >

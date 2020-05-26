@@ -1603,14 +1603,20 @@ body {
 	border: 1px solid white;
 	padding: 0;
 	font-size: 12px;
-	text-indent: 5px !important;
+	text-indent: 25% !important;
 }
 
 .newsletterInput #sg-submit-btn {
 	border-radius: 0;
-	background-color: white;
+	background-color: transparent;
 	border: 1px solid white;
 	padding: 3px;
+	transition: 0.3s ease-in-out;
+}
+
+.newsletterInput #sg-submit-btn:hover {
+	background-color: white;
+	opacity: 0.7;
 }
 
 .menu-footer-menu-container ul {
@@ -1648,11 +1654,11 @@ body {
 	color: white !important;
 }
 
-.footer-custom-col4 a {
-	font-size: 14px !important;
+#footer-custom-col4 a {
+	font-size: 14px;
 }
 
-.footer-custom-col4 a:hover {
+#footer-custom-col4 a:hover {
 	color: white !important;
 }
 
