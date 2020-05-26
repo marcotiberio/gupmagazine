@@ -1647,13 +1647,13 @@ body {
 	color: white !important;
 }
 
-/* .social-footer a {
+.social-footer a {
 	font-size: 14px;
 }
 
 .social-footer a:hover {
 	color: white !important;
-} */
+}
 
 @media only screen and (max-width: 900px) {
 	
