@@ -40,6 +40,7 @@
 			<div class="footer-custom-column" id="footer-custom-col3">
 			<h4>NEWSLETTER</h4>
 			<p>Stay up to date on the latest publications, events, articles and open calls</p>
+			<script type="text/javascript" src="//sgwidget.leaderapps.co/js/sendgrid-widget.js"></script><div id="sendgrid-subscription-widget" class="sendgrid-subscription-widget" ><form id="sg-widget" data-token="e2c37163dc95b4351b82ab699ae28b29" onsubmit="return false;"><div class="sg-response" id="sg-response"></div><input id="email" type="email" name="email" placeholder="you@example.com" required><input type="submit" id="sg-submit-btn" value=“Subscribe”></form></div>
 			</div>
 			<div class="footer-custom-column" id="footer-custom-col4">
 				<h4>FOLLOW US</h4>
