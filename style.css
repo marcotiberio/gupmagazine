@@ -1266,6 +1266,10 @@ body {
 	.nav-custom {
 		padding-top: 0;
 	}
+	
+	#menuOverlay {
+		overflow: scroll !important;
+	}
 
 	.menuOverlay--inside {
 		display: grid;
