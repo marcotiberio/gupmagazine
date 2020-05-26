@@ -1591,7 +1591,8 @@ body {
 .newsletterInput {
 	display: grid;
     grid-template-columns: 3fr 1fr;
-    column-gap: 5px;
+	column-gap: 5px;
+	font-family: "georgia", serif !important;
 }
 
 .newsletterInput #email {
@@ -1600,13 +1601,14 @@ body {
 	background-color: transparent;
 	border: 1px solid white;
 	padding: 0;
+	text-indent: 5px;
 }
 
 .newsletterInput #sg-submit-btn {
 	border-radius: 0;
 	background-color: white;
 	border: 1px solid white;
-	padding: 0;
+	padding: 3px;
 }
 
 .menu-footer-menu-container ul {
