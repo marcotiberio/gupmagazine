@@ -1271,7 +1271,8 @@ body {
 		display: grid;
     	grid-template-columns: 1fr;
     	grid-template-rows: 1fr;
-    	padding: 10%;
+		padding: 10%;
+		overflow: scroll !important;
 	}
 
 	#overlay-menu {
@@ -1862,8 +1863,6 @@ body {
 	.post-credits div {
 		text-align: center;
 	}
-
-
 
 	.post-credits div h4 {
 		text-align: center;
