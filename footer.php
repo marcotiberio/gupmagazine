@@ -58,6 +58,7 @@
 					<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
 					<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
 				</div>
+				<h4>CONTACT US</h4>
 				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 			</div>
 		</div>
