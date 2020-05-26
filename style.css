@@ -1268,8 +1268,9 @@ body {
 	}
 	
 	#menuOverlay {
-		height: 5000px !important;
-		overflow: hidden !important;
+		position: absolute;
+		height: 2000px !important;
+		overflow: scroll !important;
 	}
 
 	.menuOverlay--inside {
