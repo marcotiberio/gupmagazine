@@ -1665,7 +1665,7 @@ body {
     padding: 0;
 }
 
-#footer-custom-col4 h4:nth-child(2) {
+#footer-custom-col4 h4:nth-last-child(1) {
 	margin-bottom: 0.3em;
 }
 
