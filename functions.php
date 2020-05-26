@@ -173,6 +173,10 @@ function my_register_blocks() {
     }
 }
 
+
+
+add_filter( 'excerpt_length', function($length) { return 25; } );
+
 /**
  * Implement the Custom Header feature.
  */
