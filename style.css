@@ -1592,13 +1592,16 @@ body {
 	margin-bottom: 1em;
 }
 
+.sendgrid-subscription-widget {
+	margin-bottom: 1.5em;
+}
+
 .newsletterInput {
 	display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 	row-gap: 5px;
 	font-family: "georgia", serif !important;
-	margin-bottom: 1.5em;
 }
 
 .newsletterInput #email {
