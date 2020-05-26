@@ -1588,6 +1588,10 @@ body {
 	padding: 0 20%;
 }
 
+#footer-custom-col3 p {
+	margin-bottom: 1em;
+}
+
 .newsletterInput {
 	display: grid;
     grid-template-columns: 1fr;
@@ -1607,6 +1611,7 @@ body {
 }
 
 .newsletterInput #sg-submit-btn {
+	color: #7a7b7d;
 	border-radius: 0;
 	background-color: transparent;
 	border: 1px solid white;
@@ -1616,7 +1621,13 @@ body {
 
 .newsletterInput #sg-submit-btn:hover {
 	background-color: white;
-	opacity: 0.7;
+	cursor: pointer;
+}
+
+.sendgrid-subscription-widget .sg-response {
+	font-size: 12px;
+	color: #7a7b7d;
+	font-weight: 400;
 }
 
 .menu-footer-menu-container ul {
