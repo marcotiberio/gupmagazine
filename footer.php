@@ -33,8 +33,6 @@
 				Lindengracht 35<br>
 				1015 KB Amsterdam<br>
 				The Netherlands<br>
-				<br>
-				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 				</p>
 			</div>
 			<div class="footer-custom-column" id="footer-custom-col3">
@@ -60,6 +58,7 @@
 					<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
 					<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
 				</div>
+				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 			</div>
 		</div>
 		<div class="site-info">
