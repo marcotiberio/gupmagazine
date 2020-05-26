@@ -1590,8 +1590,9 @@ body {
 
 .newsletterInput {
 	display: grid;
-    grid-template-columns: 3fr 1fr;
-	column-gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+	row-gap: 5px;
 	font-family: "georgia", serif !important;
 }
 
@@ -1639,7 +1640,7 @@ body {
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 
-	margin: 0 25% 10%;
+	margin: 0 25% 5%;
     padding: 0;
 }
 
