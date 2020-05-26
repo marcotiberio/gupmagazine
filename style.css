@@ -1563,6 +1563,10 @@ body {
 	text-transform: uppercase;
 }
 
+.footer-custom-column h4:nth-child(2) {
+	margin-bottom: 0.3em !important;
+}
+
 .footer-custom-column p {
 	font-size: 12px;
 	color: #7a7b7d;
