@@ -41,11 +41,11 @@
 				<!-- NEWSLETTER -->
 				<script type="text/javascript" src="//sgwidget.leaderapps.co/js/sendgrid-widget.js"></script>
 				<div id="sendgrid-subscription-widget" class="sendgrid-subscription-widget" >
-					<form id="sg-widget" data-token="e2c37163dc95b4351b82ab699ae28b29" onsubmit="return false;">
+					<form id="sg-widget" data-token="b6hYR_PXTFyyzIajdr4JTw" onsubmit="return false;">
 						<div class="sg-response" id="sg-response"></div>
 						<div class="newsletterInput">
-						<input id="email" type="email" name="email" placeholder="you@example.com" required>
-						<input type="submit" id="sg-submit-btn" value=“Subscribe”>
+							<input id="email" type="email" name="email" placeholder="you@example.com" required>
+							<input type="submit" id="sg-submit-btn" value=“Subscribe”>
 						</div>
 					</form>
 				</div>
