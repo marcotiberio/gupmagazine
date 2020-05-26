@@ -1236,6 +1236,7 @@ body {
 		grid-column-gap: 0px;
 		grid-row-gap: 0px;
 		height: 70px;
+		z-index: 2000;
 	}
 
 	.main-navigation .menu-toggle {
@@ -1270,7 +1271,7 @@ body {
 	#menuOverlay {
 		position: absolute;
 		height: 100% !important;
-		overflow: scroll !important;
+		overflow: hidden !important;
 	}
 
 	.menuOverlay--inside {
@@ -1291,14 +1292,6 @@ body {
     	margin: 0 !important;
 		list-style: none;
 		text-align: left;
-	}
-
-	.menu-overlay-menu-container #overlay-menu .menu-item a {
-		font-size: 26px !important;
-	}
-
-	.menu-overlay-menu-container #overlay-menu .menu-item .sub-menu .menu-item a {
-		font-size: 22px !important;
 	}
 
 	#column--hidden_mobile {
