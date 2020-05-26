@@ -1594,7 +1594,7 @@ body {
     column-gap: 5px;
 }
 
-.newsletterInput input#email {
+.newsletterInput input #email {
 	color: #7a7b7d;
 	border-radius: 0;
 	background-color: transparent;
@@ -1602,7 +1602,7 @@ body {
 	padding: 0;
 }
 
-.newsletterInput input#sg-submit-btn {
+.newsletterInput input #sg-submit-btn {
 	border-radius: 0;
 	background-color: white;
 	border: 1px solid white;
