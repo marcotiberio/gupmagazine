@@ -1594,9 +1594,17 @@ body {
     column-gap: 5px;
 }
 
-.newsletterInput input {
+.newsletterInput input.mail {
+	color: #7a7b7d;
 	border-radius: 0;
 	background-color: transparent;
+	border: 1px solid white;
+	padding: 0;
+}
+
+.newsletterInput input.sg-submit-btn {
+	border-radius: 0;
+	background-color: white;
 	border: 1px solid white;
 	padding: 0;
 }
