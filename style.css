@@ -1269,7 +1269,7 @@ body {
 	
 	#menuOverlay {
 		position: absolute;
-		height: 2000px !important;
+		height: 100% !important;
 		overflow: scroll !important;
 	}
 
