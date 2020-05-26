@@ -1278,7 +1278,7 @@ body {
 		display: grid;
     	grid-template-columns: 1fr;
     	grid-template-rows: 1fr;
-		padding: 10%;
+		padding: 5% 10%;
 		height: 100%;
 		overflow: hidden !important;
 	}
