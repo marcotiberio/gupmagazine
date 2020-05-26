@@ -1665,6 +1665,10 @@ body {
     padding: 0;
 }
 
+#footer-custom-col4 h4:nth-child(2) {
+	margin-bottom: 0.3em;
+}
+
 .social-footer div a:hover {
 	color: white !important;
 }
