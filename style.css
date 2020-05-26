@@ -1851,13 +1851,19 @@ body {
 
 	#post-credits_mobile-title {
 		display: block;
-		text-align: left;
+		text-align: center;
 		text-decoration: underline;
 	}
 
 	.post-credits {
 		display: none;
 	}
+	
+	.post-credits div {
+		text-align: center;
+	}
+
+
 
 	.post-credits div h4 {
 		text-align: center;
