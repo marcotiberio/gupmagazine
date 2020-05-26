@@ -1268,6 +1268,7 @@ body {
 	}
 	
 	#menuOverlay {
+		height: 2000px !important;
 		overflow: scroll !important;
 	}
 
