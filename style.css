@@ -1277,6 +1277,7 @@ body {
     	grid-template-columns: 1fr;
     	grid-template-rows: 1fr;
 		padding: 10%;
+		height: 100%;
 		overflow: scroll !important;
 	}
 
