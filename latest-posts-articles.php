@@ -42,7 +42,8 @@
 							</h5>
 						</header>
 						<div class="entry-content">
-							<?php the_excerpt(); ?>
+						<?php $summary = get_field('article_text');
+          					echo substr($summary, 0, 10); ?>
 							<a href="<?php the_permalink(); ?>">Read More</a>
 						</div>
 						</div>
