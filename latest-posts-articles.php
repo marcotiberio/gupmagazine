@@ -43,7 +43,7 @@
 						</header>
 						<div class="entry-content">
 						<?php $summary = get_field('article_text');
-          					echo substr($summary, 0, 10); ?>
+          					echo substr($summary, 0, 500); ?>
 							<a href="<?php the_permalink(); ?>">Read More</a>
 						</div>
 						</div>
