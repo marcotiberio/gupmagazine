@@ -42,7 +42,7 @@
 							</h5>
 						</header>
 						<div class="entry-content">
-						<?php $summary = get_field('article_text');
+						<?php $summary = get_field('book_text');
           					echo substr($summary, 0, 300); ?><span>...</span>
 							<p><a href="<?php the_permalink(); ?>">Read More</a></p>
 						</div>
