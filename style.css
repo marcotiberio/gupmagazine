@@ -1883,6 +1883,12 @@ body {
 	.toggle-credits-mobile div {
 		text-align: center;
 	}
+
+	.slides img {
+		height: 30vh !important;
+		width: auto;
+		padding: 0 3vh;
+	}
 }
 
 /*--------------------------------------------------------------
