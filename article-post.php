@@ -122,6 +122,7 @@ $my_query->the_post();?>
             <p><?php $summary = get_field('article_text');
           		echo substr($summary, 0, 300); ?>...</p>
         </div>
+        </div>
     </div>
 <?php
 }
