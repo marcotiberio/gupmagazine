@@ -119,10 +119,8 @@ $my_query->the_post();?>
         <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'thumbnail-list-related' ); ?></a>
         <div class="relatedcontent">
             <h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-            <p>
-                <?php $summary = get_field('article_text');
+            <?php $summary = get_field('article_text');
           		echo substr($summary, 0, 300); ?><span>...</span>
-            </p>
         </div>
     </div>
 <?php
