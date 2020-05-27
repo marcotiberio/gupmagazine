@@ -175,12 +175,6 @@ function my_register_blocks() {
 
 
 
-function custom_excerpt_length() {
-	return 15;
-	}
-	
-add_filter('excerpt_length', 'custom_excerpt_length');
-
 /**
  * Implement the Custom Header feature.
  */
