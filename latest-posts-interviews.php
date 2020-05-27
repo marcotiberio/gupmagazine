@@ -42,8 +42,9 @@
 							</h5>
 						</header>
 						<div class="entry-content">
-							<?php the_excerpt(); ?>
-							<a href="<?php the_permalink(); ?>">Read More</a>
+						<?php $summary = get_field('interview_text');
+          					echo substr($summary, 0, 300); ?><span>...</span>
+							<p><a href="<?php the_permalink(); ?>">Read More</a></p>
 						</div>
 						</div>
 					</article>
