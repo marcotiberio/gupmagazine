@@ -42,7 +42,7 @@
 							</h5>
 						</header>
 						<div class="entry-content">
-							<?php the_excerpt(); ?>
+							<?php echo excerpt(25); ?>
 							<a href="<?php the_permalink(); ?>">Read More</a>
 						</div>
 						</div>
