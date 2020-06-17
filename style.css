@@ -1172,12 +1172,7 @@ body {
 
 #menuOverlay .column {
 	border-left: 1px solid darkgrey;
-    padding-left: 30%;
-}
-
-#menuOverlay .column {
-	border-left: 1px solid darkgrey;
-    padding-left: 30%;
+    padding: 20%;
 }
 
 .menu-overlay-menu-container #overlay-menu .menu-item a {
