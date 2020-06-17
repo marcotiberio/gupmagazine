@@ -75,15 +75,6 @@
                         <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
                     <?php endif; ?>
                 </div>
-                <div>
-                    <h4>Artist Social Media</h4>
-                    <?php if( get_field('artist_facebook') ): ?>
-                        <a href="<?php echo the_field('artist_facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
-                    <?php endif; ?>
-                    <?php if( get_field('artist_instagram') ): ?>
-                        <a href="<?php echo the_field('artist_instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
-                    <?php endif; ?>
-                </div>
             </div>
 
             <div class="post-text">
