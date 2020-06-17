@@ -102,12 +102,10 @@
 				<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/gup64-cover.png" alt=""></div>
 				<div class="buy--button"><a href="#" target="_blank">BUY</a></div>
 			</div>
+			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/06/FRESH-EYES-LOGO-BLACK-2.png" alt="Logo Fresh Eyes"></div>
+			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/GUP-NEW-logo-2019.1.png" alt="Logo GUP New"></div>
+			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/06/artibooks-logo_black-3.png" alt="Logo Arti Books"></div>
 		</main>
-		<div class="sponsor-logo" style="display: block;">
-				<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/06/FRESH-EYES-LOGO-BLACK-2.png" alt="Logo Fresh Eyes"></div>
-				<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/GUP-NEW-logo-2019.1.png" alt="Logo GUP New"></div>
-				<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/06/artibooks-logo_black-3.png" alt="Logo Arti Books"></div>
-		</div>
 	</section>
 
 	<div id="content" class="site-content">
