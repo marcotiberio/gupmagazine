@@ -36,7 +36,6 @@ get_header(); ?>
 							</h5>
 						</header>
 						<div class="entry-content">
-							<p><?php the_excerpt(); ?></p>
 							<p><a href="<?php the_permalink(); ?>">Read More</a></p>
 						</div>
 						</div>
