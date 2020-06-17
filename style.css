@@ -1079,7 +1079,8 @@ body {
 }
 
 .site-branding {
-    position: absolute;
+	position: absolute;
+	top: 18px;
 	left: 10%;
 	width: 130px;
 	/* padding: 0 20%; */
@@ -1246,10 +1247,6 @@ body {
 		grid-row-gap: 0px;
 		height: 70px;
 		z-index: 2000;
-	}
-
-	.site-header a {
-		letter-spacing: .07em;
 	}
 
 	.main-navigation .menu-toggle {
