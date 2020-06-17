@@ -1973,6 +1973,10 @@ body {
 	grid-row-gap: 0px;
 }
 
+.related_posts-grid p {
+	text-align: justify;
+}
+
 .relatedthumb {
 	padding: 0 2%;
 }
