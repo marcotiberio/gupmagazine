@@ -1610,8 +1610,9 @@ body {
 	text-decoration: underline;
 }
 
+#footer-custom-col2,
 #footer-custom-col3 {
-	padding: 0 20%;
+	padding: 0 18%;
 }
 
 #footer-custom-col3 p {
