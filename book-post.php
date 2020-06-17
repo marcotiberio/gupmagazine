@@ -75,7 +75,7 @@
 						<?php if( get_field('book_credits_book-cover') ): ?>
 							<?php 
 								$image = get_field('book_credits_book-cover');
-								$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+								$size = 'thumbnail-cover'; // (thumbnail, medium, large, full or custom size)
 								if( $image ) {
 									echo wp_get_attachment_image( $image, $size );
 								} ?>

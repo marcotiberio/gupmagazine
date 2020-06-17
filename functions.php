@@ -251,6 +251,7 @@ add_image_size( 'medium_large', '768', '0', true );
 add_image_size( 'custom', '1200', '600', true );
 add_image_size( 'thumbnail-list', '460', '280', true );
 add_image_size( 'thumbnail-list-related', '600', '400', true );
+add_image_size( 'thumbnail-cover', '150', '250', true );
 
 /** 
  * Add link to post featured images. 
