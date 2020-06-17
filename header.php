@@ -80,8 +80,9 @@
 				The Netherlands<br>
 				<br>
 				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
+				<br><br>
+				Or ask for our media kit <a href="mailto:info@gupmagazine.com?subject=MEDIA KIT&amp;" target="_blank" rel="noopener noreferrer">here</a>
 				</p>
-				<p>Or ask for our media kit <a href="mailto:info@gupmagazine.com?subject=MEDIA KIT&amp;" target="_blank" rel="noopener noreferrer">here</a></p>
 			</div>
 			<div class="column" id="column--hidden_mobile">
 			<h4>FOLLOW US</h4>
