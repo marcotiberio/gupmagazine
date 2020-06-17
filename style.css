@@ -721,7 +721,6 @@ a:hover, a:active {
 	padding-left: 15%;
 	text-transform: uppercase;
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
-	font-size: 16px;
 }
 
 .main-navigation li:hover {
@@ -1098,7 +1097,7 @@ body {
 
 .nav-custom {
 	width: 100%;
-	padding-top: 18px;
+	padding-top: 20px;
 	padding-left: 0;
 }
 
