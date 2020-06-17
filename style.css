@@ -1074,6 +1074,10 @@ body {
     grid-row-gap: 0px;
 }
 
+.site-header a {
+	letter-spacing: .07em;
+}
+
 .site-title {
 	display: none;
 }
