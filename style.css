@@ -718,7 +718,7 @@ a:hover, a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
-	padding-left: 15%;
+	margin-left: 15%;
 	text-transform: uppercase;
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
 }
@@ -1237,7 +1237,7 @@ body {
 
 .sponsor-image img {
 	width: 100%;
-	padding: 5% 25%;
+	padding: 5% 35%;
 	margin: 0;
 }
 
