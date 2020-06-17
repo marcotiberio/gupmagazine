@@ -409,7 +409,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #333333;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	letter-spacing: .07em;
 }
 
 p {
@@ -1190,6 +1191,14 @@ body {
 	text-transform: capitalize;
 }
 
+.menu-overlay-menu-container #column--hidden_mobile p {
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
 #menuOverlay .column .social-footer {
 	width: 50%;
 }
@@ -1237,6 +1246,10 @@ body {
 		grid-row-gap: 0px;
 		height: 70px;
 		z-index: 2000;
+	}
+
+	.site-header a {
+		letter-spacing: .07em;
 	}
 
 	.main-navigation .menu-toggle {
@@ -1371,6 +1384,7 @@ body {
 	font-weight: 700;
 	color: #333333;
 	text-transform: uppercase;
+	letter-spacing: .07em;
 }
 
 .wp-block-getwid-template-post-date a {
@@ -1380,6 +1394,11 @@ body {
 	color: #333333;
 	text-transform: uppercase;
 	text-decoration: none;
+	letter-spacing: .07em;
+}
+
+.wp-block-getwid-template-post-featured-background-image__content {
+	letter-spacing: .07em;
 }
 
 .slick-next:before {
