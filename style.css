@@ -1084,10 +1084,15 @@ body {
 
 .site-branding {
 	position: absolute;
-	top: 18px;
+	top: 12px;
 	left: 10%;
 	width: 130px;
 	/* padding: 0 20%; */
+}
+
+.site-branding .custom-logo-link img {
+	width: 80%;
+	max-width: 80%;
 }
 
 .nav-custom {
