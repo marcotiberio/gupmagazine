@@ -1155,7 +1155,7 @@ body {
 .menuOverlay--inside {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 1fr;
+	grid-template-rows: repeat(2, 1fr);
     padding: 4% 10%;
 }
 
