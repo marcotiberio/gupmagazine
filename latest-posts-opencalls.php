@@ -37,8 +37,7 @@
 						<header class="entry-header">
 							<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
 							<h5 class="post-subtitle">
-								<span><?php the_field('post_subtitle'); ?></span> -
-								<span><?php the_time('m/j/y') ?></span>
+								<span><?php the_field('post_subtitle'); ?></span>
 							</h5>
 						</header>
 						<div class="entry-content">
