@@ -1529,7 +1529,7 @@ body {
 ## Custom Page Footer
 --------------------------------------------------------------*/
 .content-area_page-footer {
-	padding: 4% 13%;
+	padding: 70px 10% 5% 10% !important;
 }
 
 .addresses {
