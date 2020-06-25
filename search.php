@@ -36,7 +36,42 @@ get_header(); ?>
 							</h5>
 						</header>
 						<div class="entry-content">
-							<p><a href="<?php the_permalink(); ?>">Read More</a></p>
+							<?php if( get_field('book_text') ): ?>
+								<?php $summary = get_field('book_text');
+									echo substr($summary, 0, 300); ?><span>...</span>
+									<p><a href="<?php the_permalink(); ?>">Read More</a></p>
+								</div>
+							<?php endif; ?>
+							<?php if( get_field('portfolio_text') ): ?>
+								<?php $summary = get_field('portfolio_text');
+									echo substr($summary, 0, 300); ?><span>...</span>
+									<p><a href="<?php the_permalink(); ?>">Read More</a></p>
+								</div>
+							<?php endif; ?>
+							<?php if( get_field('article_text') ): ?>
+								<?php $summary = get_field('article_text');
+									echo substr($summary, 0, 300); ?><span>...</span>
+									<p><a href="<?php the_permalink(); ?>">Read More</a></p>
+								</div>
+							<?php endif; ?>
+							<?php if( get_field('event_text') ): ?>
+								<?php $summary = get_field('event_text');
+									echo substr($summary, 0, 300); ?><span>...</span>
+									<p><a href="<?php the_permalink(); ?>">Read More</a></p>
+								</div>
+							<?php endif; ?>
+							<?php if( get_field('interview_text') ): ?>
+								<?php $summary = get_field('interview_text');
+									echo substr($summary, 0, 300); ?><span>...</span>
+									<p><a href="<?php the_permalink(); ?>">Read More</a></p>
+								</div>
+							<?php endif; ?>
+							<?php if( get_field('opencall_text') ): ?>
+								<?php $summary = get_field('opencall_text');
+									echo substr($summary, 0, 300); ?><span>...</span>
+									<p><a href="<?php the_permalink(); ?>">Read More</a></p>
+								</div>
+							<?php endif; ?>
 						</div>
 						</div>
 					</article>
