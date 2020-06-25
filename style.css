@@ -1106,9 +1106,9 @@ body {
 	padding: 17% 0 0 0;
 	position: absolute;
 	border: none;
-	-webkit-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
-	-moz-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
-	box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 42px 57px 45px -35px rgba(0,0,0,0.75);
+	-moz-box-shadow: 42px 57px 45px -35px rgba(0,0,0,0.75);
+	box-shadow: 42px 57px 45px -35px rgba(0,0,0,0.75);
 }
 
 #primary-menu .sub-menu li {
