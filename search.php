@@ -21,20 +21,20 @@ get_header(); ?>
 					<?php while ( have_posts() ) : the_post(); ?>
 					<article class="latestpost--custom" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 						<div>
-						<?php
-						if ( has_post_thumbnail() ) :
-							the_post_thumbnail( 'thumbnail-list' );
-						endif;
-						?>
+							<?php
+							if ( has_post_thumbnail() ) :
+								the_post_thumbnail( 'thumbnail-list' );
+							endif;
+							?>
 						</div>
 						<div>
-						<header class="entry-header">
-							<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
-							<h5 class="post-subtitle">
-								<span><?php the_field('post_subtitle'); ?></span> - 
-								<span><?php the_time('m/j/y') ?></span>
-							</h5>
-						</header>
+							<header class="entry-header">
+								<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
+								<h5 class="post-subtitle">
+									<span><?php the_field('post_subtitle'); ?></span> - 
+									<span><?php the_time('m/j/y') ?></span>
+								</h5>
+							</header>
 						<div class="entry-content">
 							<?php if( get_field('book_text') ): ?>
 								<?php $summary = get_field('book_text');
@@ -72,7 +72,6 @@ get_header(); ?>
 									<p><a href="<?php the_permalink(); ?>">Read More</a></p>
 								</div>
 							<?php endif; ?>
-						</div>
 						</div>
 					</article>
 		
