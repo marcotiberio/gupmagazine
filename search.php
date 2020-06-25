@@ -27,14 +27,13 @@ get_header(); ?>
 							endif;
 							?>
 						</div>
-						<div>
-							<header class="entry-header">
-								<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
-								<h5 class="post-subtitle">
-									<span><?php the_field('post_subtitle'); ?></span> - 
-									<span><?php the_time('m/j/y') ?></span>
-								</h5>
-							</header>
+						<header class="entry-header">
+							<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
+							<h5 class="post-subtitle">
+								<span><?php the_field('post_subtitle'); ?></span> - 
+								<span><?php the_time('m/j/y') ?></span>
+							</h5>
+						</header>
 						<div class="entry-content">
 							<?php if( get_field('book_text') ): ?>
 								<?php $summary = get_field('book_text');
