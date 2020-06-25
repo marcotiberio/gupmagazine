@@ -37,18 +37,17 @@
 			</div>
 			<div class="footer-custom-column" id="footer-custom-col3">
 			<h4>NEWSLETTER</h4>
-			<p>Stay updated on our latest publications, events, articles and open calls</p>
-				<!-- NEWSLETTER -->
-				<form style="border:1px solid #ccc;padding:3px;text-align:center;" 
-						action="https://tinyletter.com/gupmagazine" 
-						method="post" 
-						target="popupwindow" 
-						onsubmit="window.open('https://tinyletter.com/gupmagazine', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-				<p><label for="tlemail">Enter your email address</label></p>
-				<p><input type="text" style="width:140px" name="email" id="tlemail" /></p>
-				<input type="hidden" value="1" name="embed"/>
-				<input type="submit" value="Subscribe" /><p>
-				<!-- NEWSLETTER -->
+			<!-- NEWSLETTER -->
+			<form style="padding:0; text-align:center;" 
+					action="https://tinyletter.com/gupmagazine" 
+					method="post" 
+					target="popupwindow" 
+					onsubmit="window.open('https://tinyletter.com/gupmagazine', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+			<p><label for="tlemail">Stay updated on our latest publications, events, articles and open calls</label></p>
+			<p><input type="text" style="width:140px" name="email" id="tlemail" /></p>
+			<input type="hidden" value="1" name="embed"/>
+			<input type="submit" value="Subscribe" /><p>
+			<!-- NEWSLETTER -->
 			</div>
 			<div class="footer-custom-column" id="footer-custom-col4">
 				<h4>FOLLOW US</h4>
