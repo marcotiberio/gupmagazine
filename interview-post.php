@@ -90,6 +90,16 @@
         <div class="post-text">
             <p><?php the_field('interview_text'); ?></p>
         </div>
+
+        <?php if( get_field('video_embed') ): ?>
+            <?php
+                $videoembed = get_field('video_studio');
+
+                if ('' !== strval($videoembed)) {
+                    echo '<iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $videoembed . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay;"></iframe>';
+                }
+            ?>
+        <?php endif; ?>
 		
     </div>
 
