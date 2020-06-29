@@ -49,40 +49,39 @@
 
 		<div id="post-content">
 			<div class="post-credits" id="toggle-credits-mobile">
-                <div>
-                    <?php if( get_field('interview_credits_author') ): ?>
-                        <h4>GUP Author</h4>
-                        <p><?php the_field('interview_credits_author'); ?></h4></p>
-                    <?php endif; ?>
-                </div>
-                <hr style="margin-right:40%;">
-                <div>
-                    <?php if( get_field('interview_credits_artist') ): ?>
-                        <h4>Artist</h4>
-                        <p><?php the_field('interview_credits_artist'); ?></h4></p>
-                    <?php endif; ?>
-                </div>
-                <div>
-                    <?php 
-                    $link = get_field('interview_credits_artist-website');
-                    if( $link ): 
-                        $link_url = $link['url'];
-                        $link_title = $link['title'];
-                        $link_target = $link['target'] ? $link['target'] : '_blank';
-                        ?>
-                        <h4>Artist Website</h4>
-                        <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-                    <?php endif; ?>
-                </div>
-                <div>
-                    <h4>Social Media</h4>
-                    <?php if( get_field('interview_facebook') ): ?>
-                        <a href="<?php echo the_field('interview_facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
-                    <?php endif; ?>
-                    <?php if( get_field('interview_instagram') ): ?>
-                        <a href="<?php echo the_field('interview_instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
-                    <?php endif; ?>
-                </div>
+            <div>
+                <?php if( get_field('interview_credits_author') ): ?>
+                    <h4>GUP Author</h4>
+                    <p><?php the_field('interview_credits_author'); ?></h4></p>
+                <?php endif; ?>
+            </div>
+            <hr style="margin-right:40%;">
+            <div>
+                <?php if( get_field('interview_credits_artist') ): ?>
+                    <h4>Artist</h4>
+                    <p><?php the_field('interview_credits_artist'); ?></h4></p>
+                <?php endif; ?>
+            </div>
+            <div>
+                <?php 
+                $link = get_field('interview_credits_artist-website');
+                if( $link ): 
+                    $link_url = $link['url'];
+                    $link_title = $link['title'];
+                    $link_target = $link['target'] ? $link['target'] : '_blank';
+                    ?>
+                    <h4>Artist Website</h4>
+                    <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                <?php endif; ?>
+            </div>
+            <div>
+                <h4>Social Media</h4>
+                <?php if( get_field('interview_facebook') ): ?>
+                    <a href="<?php echo the_field('interview_facebook'); ?>" target="_blank" style="margin-right: 10px;">Facebook</a>
+                <?php endif; ?>
+                <?php if( get_field('interview_instagram') ): ?>
+                    <a href="<?php echo the_field('interview_instagram'); ?>" target="_blank" style="margin-right: 10px;">Instagram</a>
+                <?php endif; ?>
             </div>
         </div>
 
