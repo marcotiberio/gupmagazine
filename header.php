@@ -86,6 +86,7 @@
 					<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
 				</div>
 				<!-- NEWSLETTER -->
+				<h4>NEWSLETTER</h4>
 				<form style="padding:0; text-align:center;" 
 						action="https://tinyletter.com/gupmagazine" 
 						method="post" 
