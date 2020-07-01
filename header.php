@@ -87,7 +87,7 @@
 						method="post" 
 						target="popupwindow" 
 						onsubmit="window.open('https://tinyletter.com/gupmagazine', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-					<p style="text-align: left; margin-bottom: 0;"><label for="tlemail">Stay updated on our latest publications, events, articles and open calls</label></p>
+					<p style="text-align: left; margin-bottom: 5px;"><label for="tlemail">Stay updated on our latest publications, events, articles and open calls</label></p>
 					<input type="text" style="width: 100%; height: 30px; margin-bottom: 3px; background-color: transparent; border-radius: 0;" name="email" id="tlemail" />
 					<input type="hidden" value="1" name="embed"/>
 					<input type="submit" value="Subscribe" style="width: 100%; background-color: transparent; border-radius: 0; color: black; text-transform: uppercase;" />
