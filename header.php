@@ -80,7 +80,6 @@
 				The Netherlands<br>
 				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 				</p>
-				<h4>FOLLOW US</h4>
 				<div class="social-footer" style="margin: 0;">
 					<div><a href="https://www.facebook.com/GUP.magazine/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></div>
 					<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
@@ -90,7 +89,6 @@
 			<div class="column" id="column--hidden_mobile">
 				<h4>COLLABORATION</h4>
 				<div>
-					<br>
 					<p>Are you a publisher, fair or festival and you want to collaborate with us? Contact us at:
 						<a href="mailto:info@gupmagazine.com" target="_blank" rel="noopener noreferrer">info@gupmagazine.com</a>
 					</p>
