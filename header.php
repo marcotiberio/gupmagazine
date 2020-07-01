@@ -99,12 +99,12 @@
 			</div>
 			<div class="column" id="column--hidden_mobile">
 				<h4>CURRENT ISSUE</h4>
-				<div><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/06/cover_gup65.jpg" alt=""></div>
-				<div class="buy--button"><a href="https://shop-gupmagazine-com.myshopify.com/collections/single-issues/products/gup-65-euro" target="_blank">BUY</a></div>
+				<div><img src="https://gupmagazine.com/wp-content/uploads/2020/06/cover_gup65.jpg" alt=""></div>
+				<div class="buy--button"><a href="https://shop.gupmagazine.com/photo-books-magazines/photo-magazines/gup-magazine-65" target="_blank">BUY</a></div>
 			</div>
-			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/06/FRESH-EYES-LOGO-BLACK-2.png" alt="Logo Fresh Eyes"></div>
-			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/GUP-NEW-logo-2019.1.png" alt="Logo GUP New"></div>
-			<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/06/artibooks-logo_black-3.png" alt="Logo Arti Books"></div>
+			<div class="sponsor-image"><img src="https://gupmagazine.com/wp-content/uploads/2020/06/FRESH-EYES-LOGO-BLACK-2.png" alt="Logo Fresh Eyes"></div>
+			<div class="sponsor-image"><img src="https://gupmagazine.com/wp-content/uploads/2020/04/GUP-NEW-logo-2019.1.png" alt="Logo GUP New"></div>
+			<div class="sponsor-image"><img src="https://gupmagazine.com/wp-content/uploads/2020/06/artibooks-logo_black-3.png" alt="Logo Arti Books"></div>
 		</main>
 	</section>
 
