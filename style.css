@@ -1278,8 +1278,12 @@ body {
 		display: none;
 	}
 
+	.nav--search {
+		display: none;
+	}
+
 	.nav-custom {
-		padding-top: 0;
+		padding-top: 20px;
 	}
 	
 	#menuOverlay {
