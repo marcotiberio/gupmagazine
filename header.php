@@ -80,11 +80,6 @@
 				The Netherlands<br>
 				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 				</p>
-				<div class="social-footer" style="margin: 0;">
-					<div><a href="https://www.facebook.com/GUP.magazine/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></div>
-					<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
-					<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
-				</div>
 				<!-- NEWSLETTER -->
 				<h4>NEWSLETTER</h4>
 				<form style="padding:0; text-align:center;" 
@@ -107,6 +102,14 @@
 					</p>
 					<p>Or ask for our media kit <a href="mailto:info@gupmagazine.com?subject=MEDIA KIT&amp;" target="_blank" rel="noopener noreferrer">here</a></p>
 				</div>
+				<h4>FOLLOW US</h4>
+				<div class="social-footer" style="margin: 0;">
+					<div><a href="https://www.facebook.com/GUP.magazine/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></div>
+					<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
+					<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
+				</div>
+				<h4>CONTACT US</h4>
+				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 			</div>
 			<div class="column" id="column--hidden_mobile">
 				<h4>CURRENT ISSUE</h4>
