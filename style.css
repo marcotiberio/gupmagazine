@@ -2291,7 +2291,7 @@ body {
 	line-height: 2rem;
 }
 
-.page-not-found footer {
+.error404 footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
