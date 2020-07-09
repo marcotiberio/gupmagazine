@@ -2278,3 +2278,13 @@ body {
     position: relative;
     padding-top: 70px;
 }
+
+.page-not-found h1 {
+	margin: 0;
+    position: absolute;
+    width: 60%;
+    top: 30%;
+    left: 20%;
+	text-align: center;
+	line-height: 2rem;
+}
