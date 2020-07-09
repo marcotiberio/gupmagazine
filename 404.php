@@ -16,7 +16,7 @@ get_header();
 			<section class="page-not-found">
 				<h1>We are in the process of reorganizing our archive. Stay tuned for more info!
 				<br><br>
-				Meanwhile, browse our <a href="https://gupmagazine.com/" target="_blank">latest articles</a>, or visit
+				Meanwhile browse our <a href="https://gupmagazine.com/" target="_blank">latest articles</a> or visit
 				our new <a href="https://shop.gupmagazine.com/" target="_blank">shop</a>.
 				</h1>
 			</section><!-- .error-404 -->
