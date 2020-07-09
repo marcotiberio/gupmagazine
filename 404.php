@@ -14,7 +14,11 @@ get_header();
 		<main id="main" class="site-main">
 
 			<section class="page-not-found">
-				<p>OH NO THIS IS EMBARASSING</p>
+				<h1>We are in the process of reorganizing our archive. Stay tuned for more info!
+				<br>
+				Meanwhile, browse our new website on here, updated several times a week with new content or visit
+				our new <a href="#" target="_blank">shop</a>.
+				</h1>
 			</section><!-- .error-404 -->
 
 		</main><!-- #main -->
