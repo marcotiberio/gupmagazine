@@ -2296,3 +2296,131 @@ body {
 	bottom: 0;
 	left: 0;
 }
+
+/*--------------------------------------------------------------
+## Landing Page Special
+--------------------------------------------------------------*/
+
+.page-template-landing-page-special .intro {
+	width: 100%;
+	padding: 0 10%;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (1, 1fr);
+	background-color: transparent;
+}
+
+.page-template-landing-page-special .site-header,
+.page-template-landing-page-special .entry-header,
+.page-template-landing-page-special .site-footer {
+	display: none;
+}
+
+.page-template-landing-page-special {
+	background-color: black;
+}
+
+.page-template-landing-page-special .intro .right {
+	margin-top: 10%;
+  	margin-left: 5%;
+}
+
+
+.page-template-landing-page-special #introText p {
+	color: white;
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
+	font-size: 1.5rem;
+}
+
+.page-template-landing-page-special .landing-buttons {
+	margin-top: 5%;
+}
+
+.page-template-landing-page-special .landing-buttons button {
+	background-color: white;
+	border: none;
+	border-radius: 0;
+	color: black;
+	text-align: center;
+	transition: 0.5s;
+	width: 80px;
+	padding: 1% 2%;
+}
+
+.page-template-landing-page-special .landing-buttons button a {
+	color: black;
+	text-decoration: none;
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	text-transform: uppercase
+}
+
+.page-template-landing-page-special .landing-buttons button:hover {
+	filter: invert(1);
+}
+	
+.page-template-landing-page-special #introText {
+	top: 35%;
+}
+	
+.page-template-landing-page-special #introText p {
+	font-size: 2rem;
+	line-height: 2.5rem;
+	margin: 0;
+}
+
+.page-template-landing-page-special .intro .right .numbers {
+	display: grid;
+	grid-template-columns: repeat(17, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	background-color: transparent;
+	width: 100%;
+	padding: 0;
+	margin-top: 5%;
+}
+
+.page-template-landing-page-special .numbers-img-container {
+	text-align: center;
+	margin: 0 2px;
+}
+
+.page-template-landing-page-special .numbers-img-container img {
+	height: auto;
+	width: 100%;
+	border: 1px solid white;
+}
+
+@media (max-width: 900px) {
+	
+	.page-template-landing-page-special .intro {
+		width: 100%;
+		padding: 0 5%;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: 1fr 1fr;
+		background-color: transparent;
+	}
+	
+	.page-template-landing-page-special .intro .right {
+		margin: 0;
+	}
+	
+	.page-template-landing-page-special .intro .right .numbers {
+		margin-top: 5%; padding: 0;
+		display: none;
+		grid-template-columns: repeat(4, 1fr);
+		column-gap: 10px;
+		row-gap: 10px;
+	}
+	
+	.page-template-landing-page-special .landing-buttons {
+		margin: 20% 0;
+		text-align: left;
+	}
+	
+}
