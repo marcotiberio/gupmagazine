@@ -2303,7 +2303,7 @@ body {
 
 .page-template-landing-page-special .intro {
 	width: 100%;
-	padding: 0 10%;
+	padding: 0 9%;
 	position: absolute;
   	top: 50%;
   	left: 50%;
@@ -2314,7 +2314,22 @@ body {
 	background-color: transparent;
 }
 
-.page-template-landing-page-special .site-header,
+
+.page-template-landing-page-special .site-header {
+	display: block;
+	background-color: transparent;
+}
+
+.page-template-landing-page-special .site-header .site-branding {
+	filter: invert(1);
+}
+
+.page-template-landing-page-special .nav-custom,
+.page-template-landing-page-special .nav--search,
+.page-template-landing-page-special .nav--overlay {
+	display: none;
+}
+
 .page-template-landing-page-special .entry-header,
 .page-template-landing-page-special .site-footer {
 	display: none;
@@ -2408,6 +2423,10 @@ body {
 	
 	.page-template-landing-page-special .intro .right {
 		margin: 0;
+	}
+	
+	.page-template-landing-page-special .intro .left {
+	padding-top: 20%;
 	}
 	
 	.page-template-landing-page-special .intro .right .numbers {
