@@ -16,7 +16,7 @@
 				'post_type' => 'post',
 				'post_status' => 'publish',
 				'category_name' => 'interview',
-				'posts_per_page' => 20,
+				'posts_per_page' => -1
 			);
 			$arr_posts = new WP_Query( $args );
 			 
