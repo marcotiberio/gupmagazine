@@ -75,7 +75,8 @@
 				<h4>EDITORIAL OFFICE</h4>
 				<p>
 				GUP Magazine<br>
-				Lindengracht 35, 1015 KB Amsterdam<br>
+				Lindengracht 35<br>
+				1015 KB Amsterdam<br>
 				The Netherlands<br>
 				+31 6 30496386<br>
 				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
