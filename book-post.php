@@ -109,7 +109,7 @@
 				</div>
 
 				<div class="post-text">
-					<p><?php the_field('book_text'); ?></p>
+					<?php the_field('book_text'); ?>
 				</div>
 
 			</div>

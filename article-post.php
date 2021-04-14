@@ -68,10 +68,48 @@
                     <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
                 <?php endif; ?>
             </div>
+            <div>
+                <?php if( get_field('article_credits_book-title') ): ?>
+                <h4>Title</h4>
+                <p><?php the_field('article_credits_book-title'); ?></p>
+                <?php if( get_field('article_credits_book-cover') ): ?>
+                    <?php 
+                        $image = get_field('article_credits_book-cover');
+                        $size = 'thumbnail-cover'; // (thumbnail, medium, large, full or custom size)
+                        if( $image ) {
+                            echo wp_get_attachment_image( $image, $size );
+                        } ?>
+                    <?php endif; ?>
+                <?php endif; ?>
+            </div>
+            <div>
+                <?php 
+                $link = get_field('article_credits_publisher');
+                if( $link ): 
+                $link_url = $link['url'];
+                $link_title = $link['title'];
+                $link_target = $link['target'] ? $link['target'] : '_blank';
+                ?>
+                <h4>Publisher</h4>
+                <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+            <?php endif; ?>
+            </div>
+            <div>
+                <?php if( get_field('article_credits_book-format') ): ?>
+                <h4>Format</h4>
+                <p><?php the_field('article_credits_book-format'); ?></p>
+                <?php endif; ?>
+            </div>
+            <div>
+                <?php if( get_field('article_credits_book-price') ): ?>
+                <h4>Price</h4>
+                <p><?php the_field('article_credits_book-price'); ?></p>
+                <?php endif; ?>
+            </div>
         </div>
 
         <div class="post-text">
-            <p><?php the_field('article_text'); ?></p>
+            <?php the_field('article_text'); ?>
         </div>
 		
     </div>

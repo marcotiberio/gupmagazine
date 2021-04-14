@@ -597,10 +597,24 @@ textarea {
 
 input[type="search"] {
 	color: #000;
-	border: none;
-	padding-right: 3px;
+	border: 1px solid #666;
+	padding: 3px;
 	outline: none;
-	direction: rtl;
+	width: 100%;
+}
+
+.menu-item a img, 
+img.menu-image-title-after, 
+img.menu-image-title-before, 
+img.menu-image-title-above, 
+img.menu-image-title-below, 
+.menu-image-hover-wrapper .menu-image-title-above {
+	border: none;
+    box-shadow: none;
+    vertical-align: sub;
+    width: auto;
+    display: inline;
+	height: 14px;
 }
 
 input[type="text"]:focus,
@@ -740,12 +754,20 @@ a:hover, a:active {
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 1024px) {
 	.menu-toggle {
 		display: none;
 	}
 	.main-navigation ul {
 		display: block;
+		/* flex-direction: row;
+		justify-content: center; */
+	}
+
+	#primary-menu {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
 	}
 }
 
@@ -1058,6 +1080,13 @@ body {
 ## Header
 --------------------------------------------------------------*/
 
+#hiddenSearch {
+	display: none;
+	position: fixed;
+    right: 0;
+    top: 70px;
+}
+
 .site-header {
 	position: fixed;
     left: 0;
@@ -1128,13 +1157,14 @@ body {
 }
 
 .nav--search form{
-	padding-top: 18px;
+	width: 16vw;
+	/* padding-top: 18px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px; */
 }
 
 .nav--overlay {
-	padding-top: 18px;
+	padding-top: 22px;
 	cursor: pointer;
 }
 
@@ -1327,6 +1357,8 @@ body {
 --------------------------------------------------------------*/
 .entry-content {
 	margin: 0;
+	font-style: normal !important;
+	font-weight: lighter !important;
 }
 .recent-posts-home {
 	padding: 1% 10%;
@@ -1406,6 +1438,10 @@ body {
 	letter-spacing: .07em;
 }
 
+.slick-dots {
+	display: none !important;
+}
+
 .slick-next:before {
     content: url(https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/05/next.png);
 }
@@ -1431,7 +1467,7 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-	
+
 	.wp-block-getwid-template-post-featured-background-image__content {
 		/* background: white; */
     	margin-top: 40%;
@@ -1448,19 +1484,29 @@ body {
 ## Landing Page
 --------------------------------------------------------------*/
 
-.background_landing {
-	padding: 0;
-	margin: 0;
+.page-template-landing-page {
+	overflow: hidden;
 }
 
-.video-landing {
-	padding: 0 !important;
-	margin: 0 !important;
+.page-template-landing-page .hero {
+	width: 100vw;
+	height: 100vh;
 }
 
-.wp-block-video video {
-	width: 100vw !important;
-	height: 100vh !important;
+.page-template-landing-page .hero .image-desktop {
+	width: 100% !important;
+	height: auto !important;
+}
+
+.page-template-landing-page .hero .image-mobile {
+	display: none;
+}
+
+.page-template-landing-page .background_landing {
+    padding: 0;
+    margin: 0;
+	display: grid;
+	place-items: center;
 }
 
 .page-template-landing-page header {
@@ -1471,62 +1517,69 @@ body {
 	display: none;
 }
 
-.button--close_landing {
-	margin: 0;
-	padding: 10px;
-  	position: absolute;
-	top: 3%;
-	right: 2%;
-	width: fit-content;
-	border: 2px solid black;
-	border-radius: 0;
-	background-color: transparent;
-	color: black;
-	transition: 0.3s;
-	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
-	font-size: 16px;
+.page-template-landing-page .intro {
+	width: 100%;
+	bottom: 15%;
+	position: absolute;
+    display: grid;
+    place-items: center;
+	color: #fff;
 }
 
-.button--close_landing:hover {
-	color: white;
-	background-color: black;
-	border: 2px solid black;
-	border-radius: 0;
-	cursor: pointer;
+.page-template-landing-page .intro h1,
+.page-template-landing-page .intro h3,
+.page-template-landing-page .intro p {
+	color: #fff;
 }
 
 .button_landing {
 	margin: 0;
 	padding: 10px 20px;
   	position: absolute;
-  	top: 80%;
+  	bottom: 5%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-	width: fit-content;
-	border: 2px solid black;
+	width: auto;
+	border: 2px solid #000;
 	border-radius: 0;
-	background-color: transparent;
+	background-color: #fff;
 	transition: 0.3s;
+
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
+	font-size: 16px;
 }
 
 .button_landing:hover {
 	color: white;
-	background-color: black;
-	border: 2px solid black;
+	background-color: #000;
+	border: 2px solid #000;
 	border-radius: 0;
 	cursor: pointer;
 }
 
 .button_landing a {
-	color: black;
-	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
-	font-size: 16px;
+	color: #000;
 	text-decoration: none;
 }
 
-.button_landing a:hover {
+.button_landing:hover a {
 	color: white;
 	text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.page-template-landing-page .hero .image-desktop {
+		display: none;
+	}
+
+	.page-template-landing-page .hero .image-mobile {
+		display: block;
+		height: 100%;
+		width: auto;
+		max-width: inherit;
+	}
+
 }
 
 /*--------------------------------------------------------------
@@ -1812,6 +1865,9 @@ body {
 
 .entry-content p {
     text-align: justify;
+	font-weight: lighter;
+	font-size: 1.15rem;
+	line-height: 1.75rem;
 }
 
 #post-title {
@@ -1861,12 +1917,25 @@ body {
 	flex-basis: 30%;
 }
 
+#post-content .link-book {
+	display: grid;
+    grid-auto-rows: auto;
+    row-gap: 0.8rem;
+	transition: all 0.5 linear;
+}
+
+#post-content .link-book:hover img {
+	opacity: 0.8;
+}
+
 #post-content .post-text {
 	flex-basis: 70%;
 }
 
 .post-text p {
 	text-align: justify;
+	font-size: 1.15rem;
+	line-height: 1.75rem;
 }
 
 .post-text p .aligncenter {
@@ -1890,7 +1959,7 @@ body {
 	.post-credits {
 		display: none;
 	}
-	
+
 	.post-credits div {
 		text-align: center;
 	}
@@ -1907,6 +1976,11 @@ body {
 		margin: 0 25%;
 	}
 
+	#post-content .link-book img {
+		margin: 0;
+		width: 100%;
+	}
+
 	.post-credits hr {
 		display: none;
 	}
@@ -1920,6 +1994,7 @@ body {
 		width: auto;
 		padding: 0 3vh;
 	}
+
 }
 
 /*--------------------------------------------------------------
@@ -1930,16 +2005,21 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	grid-template-rows: 1fr;
-	grid-column-gap: 20px;
+	grid-column-gap: 30px;
 	grid-row-gap: 0px;
 
   margin-bottom: 40px;
 }
 
+.latestpost--custom div:nth-child(2) {
+	display: grid;
+}
+
 .latestpost--custom .entry-header {
-	margin-top: 15px;
+	/* margin-top: 15px; */
 	font-size: 1.17em;
 	text-align: left;
+	font-style: normal !important;
 }
 
 .latestpost--custom .entry-header a {
@@ -1971,7 +2051,16 @@ body {
 
 .latest-posts a {
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
-	font-size: 1.17em;
+	font-size: 1.15rem;
+  	font-weight: 700;
+  	color: #333333;
+  	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+.latest-posts p {
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+	font-size: 1.15rem;
   	font-weight: 700;
   	color: #333333;
   	text-transform: uppercase;
@@ -2020,7 +2109,8 @@ body {
 @media only screen and (max-width: 900px) {
 
 	#post-content {
-		margin: 2% 10%;
+		margin: 2% auto;
+		width: 80vw;
 	
 		flex-wrap: wrap !important;
 	
@@ -2032,11 +2122,16 @@ body {
 	}
 
 	#post-content .post-credits {
-		flex-basis: 100% !important;
+		/* flex-basis: 100% !important; */
+		width: 80vw;
+		margin: 2% auto;
 	}
 	
 	#post-content .post-text {
-		flex-basis: 100% !important;
+		flex-basis: 100%;
+		width: 80vw !important;
+    	margin: 2% auto !important;
+		/* flex-basis: 100% !important; */
 	}
 
 	.latestpost--custom {
@@ -2295,6 +2390,52 @@ body {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+
+/*--------------------------------------------------------------
+## About
+--------------------------------------------------------------*/
+
+.page-template-about-page .content-area {
+	padding: 7% 10% 5% 10%;
+}
+
+.page-template-about-page section {
+	margin-bottom: 75px;
+}
+
+.page-template-about-page .team .grid {
+	display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    column-gap: 25px;
+    row-gap: 25px;
+	margin-top: 25px;
+}
+
+.page-template-about-page .team .grid .member img {
+	margin-bottom: 10px;
+}
+
+.page-template-about-page .team .grid .member p {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+.page-template-about-page .team .grid .member h3 {
+	margin-block-start: 0;
+}
+
+@media (max-width: 1024px) {
+
+	.page-template-about-page .team .grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		grid-template-rows: auto;
+		column-gap: 25px;
+		row-gap: 25px;
+		margin-top: 25px;
+	}
 }
 
 /*--------------------------------------------------------------

@@ -56,7 +56,9 @@
 			</nav>
 		</div><!-- #site-navigation -->
 		<div class="nav--search">
-			<?php get_search_form(); ?>
+			<div id="hiddenSearch">
+				<?php get_search_form(); ?>
+			</div>
 		</div>
 		<div class="nav--overlay">
 			<i class="fas fa-bars" id="open_menuOverlay"></i>
@@ -106,7 +108,7 @@
 				<h4>FOLLOW US</h4>
 				<div class="social-footer" style="margin: 0;">
 					<div><a href="https://www.facebook.com/GUP.magazine/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></div>
-					<div><a href="https://www.instagram.com/gupmagazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
+					<div><a href="https://www.instagram.com/gup.magazine/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></div>
 					<div><a href="https://twitter.com/gupmagazine" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a></div>
 				</div>
 				<h4>CONTACT US</h4>

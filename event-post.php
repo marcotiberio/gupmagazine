@@ -90,7 +90,7 @@
         </div>
 
         <div class="post-text">
-            <p><?php the_field('event_text'); ?></p>
+            <?php the_field('event_text'); ?>
         </div>
 		
     </div>

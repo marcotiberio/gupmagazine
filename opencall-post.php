@@ -85,7 +85,7 @@
             </div>
 
             <div class="post-text">
-                <p><?php the_field('opencall_text'); ?></p>
+                <?php the_field('opencall_text'); ?>
             </div>
 		
         </div>

@@ -77,6 +77,15 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".show-search").click(function(){
+    $("#hiddenSearch").slideToggle("fast");
+  });
+});
+</script>
+
 <?php wp_footer(); ?>
 
 </body>

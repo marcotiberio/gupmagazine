@@ -63,7 +63,7 @@
         </div>
 
         <div class="post-text">
-            <p><?php the_field('post_text'); ?></p>
+            <?php the_field('post_text'); ?>
         </div>
 		
     </div>

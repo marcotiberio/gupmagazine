@@ -49,38 +49,76 @@
 
 		<div id="post-content">
 			<div class="post-credits" id="toggle-credits-mobile">
-            <div>
-                <?php if( get_field('interview_credits_author') ): ?>
-                    <h4>GUP Author</h4>
-                    <p><?php the_field('interview_credits_author'); ?></h4></p>
-                <?php endif; ?>
-            </div>
-            <hr style="margin-right:40%;">
-            <div>
-                <?php if( get_field('interview_credits_artist') ): ?>
-                    <h4>Artist</h4>
-                    <p><?php the_field('interview_credits_artist'); ?></h4></p>
-                <?php endif; ?>
-            </div>
-            <div>
-                <?php 
-                $link = get_field('interview_credits_artist-website');
-                if( $link ): 
+                <div>
+                    <?php if( get_field('interview_credits_author') ): ?>
+                        <h4>GUP Author</h4>
+                        <p><?php the_field('interview_credits_author'); ?></h4></p>
+                    <?php endif; ?>
+                </div>
+                <hr style="margin-right:40%;">
+                <div style="display: block;">
+                    <?php if( get_field('interview_credits_artist') ): ?>
+                        <h4>Artist</h4>
+                        <?php the_field('interview_credits_artist'); ?>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <?php 
+                    $link = get_field('interview_credits_artist-website');
+                    if( $link ): 
+                        $link_url = $link['url'];
+                        $link_title = $link['title'];
+                        $link_target = $link['target'] ? $link['target'] : '_blank';
+                        ?>
+                        <h4>Artist</h4>
+                        <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <?php if( get_field('interview_credits_book-title') ): ?>
+                    <h4>Title</h4>
+                    <p><?php the_field('interview_credits_book-title'); ?></p>
+                    <?php if( get_field('interview_credits_book-cover') ): ?>
+                        <?php 
+                            $image = get_field('interview_credits_book-cover');
+                            $size = 'thumbnail-cover'; // (thumbnail, medium, large, full or custom size)
+                            if( $image ) {
+                                echo wp_get_attachment_image( $image, $size );
+                            } ?>
+                        <?php endif; ?>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <?php 
+                    $link = get_field('interview_credits_publisher');
+                    if( $link ): 
                     $link_url = $link['url'];
                     $link_title = $link['title'];
                     $link_target = $link['target'] ? $link['target'] : '_blank';
                     ?>
-                    <h4>Artist Website</h4>
+                    <h4>Publisher</h4>
                     <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
                 <?php endif; ?>
-            </div>
+                </div>
+                <div>
+                    <?php if( get_field('interview_credits_book-format') ): ?>
+                    <h4>Format</h4>
+                    <p><?php the_field('interview_credits_book-format'); ?></p>
+                    <?php endif; ?>
+                </div>
+                <div>
+                    <?php if( get_field('interview_credits_book-price') ): ?>
+                    <h4>Price</h4>
+                    <p><?php the_field('interview_credits_book-price'); ?></p>
+                    <?php endif; ?>
+                </div>
             <div>
                 
             </div>
         </div>
 
         <div class="post-text">
-            <p><?php the_field('interview_text'); ?></p>
+            <?php the_field('interview_text'); ?>
         </div>
 		
     </div>
